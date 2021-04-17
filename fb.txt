@@ -10,6 +10,7 @@ facebook.com##a[href$=\/business_app_store\/]:xpath(..)
 facebook.com##div[data-visualcompletion=ignore-dynamic]:has-text(Boost Post)
 facebook.com##div[data-pagelet=VideoChatHomeUnitNoDDD]
 facebook.com##a[href*=\/coronavirus_info\/\?page_source\=bookmark]:xpath(../..)
+facebook.com##span:has-text(Reach More People):xpath(../../../../../../..)
 
 # Old Facebook
 facebook.com##div[class*=stat_elem] + div:has-text(Page tips)
