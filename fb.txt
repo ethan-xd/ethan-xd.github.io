@@ -11,6 +11,7 @@ facebook.com##div[data-visualcompletion=ignore-dynamic]:has-text(Boost Post)
 facebook.com##div[data-pagelet=VideoChatHomeUnitNoDDD]
 facebook.com##a[href*=\/coronavirus_info\/\?page_source\=bookmark]:xpath(../..)
 facebook.com##span:has-text(Reach More People):xpath(../../../../../../..)
+facebook.com##span#ssrb_composer_start + div:has-text(Take a COVID-19 Survey)
 
 # Old Facebook
 facebook.com##div[class*=stat_elem] + div:has-text(Page tips)
