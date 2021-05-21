@@ -3,7 +3,7 @@ reddit.com,old.reddit.com##li.give-gold-button
 reddit.com,old.reddit.com###redesign-beta-optin-btn
 
 reddit.com,new.reddit.com##div[data-redditstyle=true]:has-text(Reddit Premium)
-reddit.com,new.reddit.com##button#COIN_PURCHASE_DROPDOWN_ID
+reddit.com,new.reddit.com##button#COIN_PURCHASE_DROPDOWN_ID:has-text(Get Coins)
 reddit.com,new.reddit.com##button:has-text(Award)
 reddit.com,new.reddit.com##a[href^=\/rpan\/r\/][href$=\?related\=home]:xpath(../../../../..)
 reddit.com,new.reddit.com##div[role=menu] > a:has-text(Reddit Coins)
