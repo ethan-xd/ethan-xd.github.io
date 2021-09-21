@@ -1,5 +1,5 @@
 facebook.com##div[data-pagelet^=FeedUnit_]:has(a[aria-label=Sponsored])
-facebook.com##div[data-pagelet^=FeedUnit_]:has(a[aria-label=label]:has-text(S):has-text(p):has-text(o):has-text(n):has-text(s):has-text(o):has-text(r):has-text(e):has-text(d))
+facebook.com##div[data-pagelet^=FeedUnit_]:has(a[aria-label=label]:has-text(S):has-text(p):has-text(o)
 facebook.com##a[aria-label="Boost Post"]
 facebook.com##div[aria-label="Boost Unavailable"]
 facebook.com##[aria-label="Promote"]
