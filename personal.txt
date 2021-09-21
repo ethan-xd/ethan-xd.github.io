@@ -1,6 +1,7 @@
 # Personal blocklist for things I find annoying
 
 ||ogs.google.com/u/*/widget/callout
+google.com##[class$=__middle-slot-promo]
 
 youtube.com##span.vidiq-video-page-menu
 youtube.com##.video-page-comments-filter
