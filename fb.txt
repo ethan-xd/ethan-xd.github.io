@@ -1,3 +1,4 @@
+facebook.com##div[data-pagelet^=FeedUnit_]:has(a[aria-label=Sponsored])
 facebook.com##a[aria-label="Boost Post"]
 facebook.com##div[aria-label="Boost Unavailable"]
 facebook.com##[aria-label="Promote"]
