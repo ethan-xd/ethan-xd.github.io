@@ -1,4 +1,7 @@
-# Personal blocklist for things I find annoying
+! Homepage: https://gamingti.me
+! Title: Ethan's Personal Blocklist
+! Expires: 1 day
+! Redirect: https://raw.githubusercontent.com/ethan-xd/ethan-xd.github.io/master/personal.txt
 
 ||ogs.google.com/u/*/widget/callout
 google.com##[class$=__middle-slot-promo]
@@ -29,4 +32,4 @@ dextools.io##.ng-star-inserted.d-none.d-lg-block.d-lg-none.d-md-none.d-sm-none.t
 dextools.io##.ng-star-inserted.ng-tns-c113-2.d-md-block.d-none.mb-4 > .ng-tns-c113-2.box-home:xpath(..)
 dextools.io##.ng-star-inserted.isFaraland.ventures-project.mini-banner:xpath(..)
 
-www.twitch.tv##.front-page-carousel
+twitch.tv##.front-page-carousel
