@@ -1,0 +1,31 @@
+# Personal blocklist for things I find annoying
+
+||ogs.google.com/u/*/widget/callout
+
+youtube.com##span.vidiq-video-page-menu
+youtube.com##.video-page-comments-filter
+youtube.com##span:nth-of-type(2) > .vidiq-button.new-layout.playlist.playlist-top-keywords-button
+youtube.com##.vidiq-button.new-layout.playlist.playlist-top-keywords-button
+youtube.com###clarify-box:has-text(COVID-19)
+youtube.com##.ytd-guide-entry-renderer.style-scope:has-text(Daily Ideas):xpath(..)
+youtube.com##.ytd-guide-entry-renderer.style-scope:has-text(Keyword Inspector):xpath(..)
+
+steamcommunity.com###floatMoney
+
+duolingo.com##button:has-text(Try Plus)
+
+rabbit.namejeff.xyz##.vue-notification-group
+
+twitter.com##div[aria-label="Timeline: Trending now"]:xpath(../../../..)
+twitter.com##div[aria-label="Timeline: "]:xpath(../../..)
+twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Topics to follow):xpath(preceding::div[1])
+twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Topics to follow)
+twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Topics to follow) + div
+twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Topics to follow) + div + div
+twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Topics to follow) + div + div + div
+
+dextools.io##.ng-star-inserted.d-none.d-lg-block.d-lg-none.d-md-none.d-sm-none.text-center.banner
+dextools.io##.ng-star-inserted.ng-tns-c113-2.d-md-block.d-none.mb-4 > .ng-tns-c113-2.box-home:xpath(..)
+dextools.io##.ng-star-inserted.isFaraland.ventures-project.mini-banner:xpath(..)
+
+www.twitch.tv##.front-page-carousel
