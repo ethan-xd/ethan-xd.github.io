@@ -1,3 +1,8 @@
+! Homepage: https://gamingti.me
+! Title: Ethan's Facebook Blocklist
+! Expires: 1 day
+! Redirect: https://raw.githubusercontent.com/ethan-xd/ethan-xd.github.io/master/fb.txt
+
 facebook.com##div[data-pagelet^=FeedUnit_]:has(a[aria-label=Sponsored])
 facebook.com##div[data-pagelet^=FeedUnit_]:has(a[aria-label=label]:has-text(S):has-text(p):has-text(o))
 facebook.com##a[aria-label="Boost Post"]
