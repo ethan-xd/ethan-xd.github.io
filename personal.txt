@@ -33,5 +33,6 @@ dextools.io##.ng-star-inserted.ng-tns-c113-2.d-md-block.d-none.mb-4 > .ng-tns-c1
 dextools.io##.ng-star-inserted.isFaraland.ventures-project.mini-banner:xpath(..)
 
 twitch.tv##.front-page-carousel
+twitch.tv##.shelf-card__impression-wrapper:has(p[data-a-target=PROMOTION]):xpath(..)
 
 typeracer.com##.DialogBox:has-text(disqualified)
