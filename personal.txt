@@ -34,6 +34,7 @@ dextools.io##.ng-star-inserted.isFaraland.ventures-project.mini-banner:xpath(..)
 
 twitch.tv##.front-page-carousel
 twitch.tv##.shelf-card__impression-wrapper:has(p[data-a-target=PROMOTION]):xpath(..)
+twitch.tv##.shelf-card__impression-wrapper:has(p[data-a-target=COMMUNITY_BOOST]):xpath(..)
 twitch.tv##.find-me:has-text(All aboard the Hype Train!)
 
 typeracer.com##.DialogBox:has-text(disqualified)
