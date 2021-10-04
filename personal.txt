@@ -15,6 +15,7 @@ youtube.com##.ytd-guide-entry-renderer.style-scope:has-text(Daily Ideas):xpath(.
 youtube.com##.ytd-guide-entry-renderer.style-scope:has-text(Keyword Inspector):xpath(..)
 
 steamcommunity.com###floatMoney
+steamcommunity.com##.tradePanel:has-text(SIH's Sponsors)
 
 duolingo.com##button:has-text(Try Plus)
 
