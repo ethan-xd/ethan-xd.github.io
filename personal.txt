@@ -40,4 +40,4 @@ twitch.tv##.find-me:has-text(All aboard the Hype Train!)
 
 typeracer.com##.DialogBox:has-text(disqualified)
 
-en.wikipedia.org###frb-inline
+wikipedia.org###frb-inline
