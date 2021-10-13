@@ -14,6 +14,7 @@ facebook.com##div[role=article]:has(a[aria-label=label]:has-text(S):has-text(p):
 facebook.com##div[data-pagelet="RightRail"] > div > div:has-text(Suggested for You)
 facebook.com##div[data-pagelet="RightRail"] > div > div:has-text(Suggested Live Video)
 facebook.com##div[data-pagelet^="FeedUnit_"]:has-text(Videos Just For You)
+facebook.com##div[data-pagelet^="FeedUnit_"]:has-text(make video calls with Messenger on Portal.)
 !
 ! Promotion call-to-actions
 !
