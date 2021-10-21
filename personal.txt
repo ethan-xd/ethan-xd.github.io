@@ -44,5 +44,3 @@ twitch.tv##.shelf-card__impression-wrapper:has(p[data-a-target=COMMUNITY_BOOST])
 twitch.tv##.find-me:has-text(All aboard the Hype Train!)
 
 typeracer.com##.DialogBox:has-text(disqualified)
-
-wikipedia.org###frb-inline
