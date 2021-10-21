@@ -15,6 +15,7 @@ youtube.com##.ytd-guide-entry-renderer.style-scope:has-text(Daily Ideas):xpath(.
 youtube.com##.ytd-guide-entry-renderer.style-scope:has-text(Keyword Inspector):xpath(..)
 youtube.com##header + div:has-text(Unlock the most advanced growth tools for creators)
 youtube.com##button.comment-templates-dropdown-button
+youtube.com##.vidiq-comment-filter
 
 steamcommunity.com###floatMoney
 steamcommunity.com##.tradePanel:has-text(SIH's Sponsors)
