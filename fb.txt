@@ -15,6 +15,7 @@ facebook.com##div[data-pagelet="RightRail"] > div > div:has-text(Suggested for Y
 facebook.com##div[data-pagelet="RightRail"] > div > div:has-text(Suggested Live Video)
 facebook.com##div[data-pagelet^="FeedUnit_"]:has-text(Videos Just For You)
 facebook.com##div[data-pagelet^="FeedUnit_"]:has-text(make video calls with Messenger on Portal.)
+facebook.com##div[data-pagelet^="FeedUnit_"]:has(span:has-text(/^Suggested Page to follow$/))
 !
 ! Promotion call-to-actions
 !
