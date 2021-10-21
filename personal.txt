@@ -13,6 +13,8 @@ youtube.com##.vidiq-button.new-layout.playlist.playlist-top-keywords-button
 youtube.com###clarify-box:has-text(COVID-19)
 youtube.com##.ytd-guide-entry-renderer.style-scope:has-text(Daily Ideas):xpath(..)
 youtube.com##.ytd-guide-entry-renderer.style-scope:has-text(Keyword Inspector):xpath(..)
+youtube.com##header + div:has-text(Unlock the most advanced growth tools for creators)
+youtube.com##button.comment-templates-dropdown-button
 
 steamcommunity.com###floatMoney
 steamcommunity.com##.tradePanel:has-text(SIH's Sponsors)
@@ -32,6 +34,9 @@ twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Topics to follow
 dextools.io##.ng-star-inserted.d-none.d-lg-block.d-lg-none.d-md-none.d-sm-none.text-center.banner
 dextools.io##.ng-star-inserted.ng-tns-c113-2.d-md-block.d-none.mb-4 > .ng-tns-c113-2.box-home:xpath(..)
 dextools.io##.ng-star-inserted.isFaraland.ventures-project.mini-banner:xpath(..)
+
+wikipedia.org###frb-inline
+wikipedia.org###frb-nag
 
 twitch.tv##.front-page-carousel
 twitch.tv##.shelf-card__impression-wrapper:has(p[data-a-target=PROMOTION]):xpath(..)
