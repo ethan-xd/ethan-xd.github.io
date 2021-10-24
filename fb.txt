@@ -17,7 +17,6 @@ facebook.com##div[data-pagelet^="FeedUnit_"]:has-text(Videos Just For You)
 facebook.com##div[data-pagelet^="FeedUnit_"]:has-text(make video calls with Messenger on Portal.)
 facebook.com##div[data-pagelet^="FeedUnit_"]:has(span:has-text(/^Suggested Page to follow$/))
 facebook.com##div[data-pagelet^="FeedUnit_"]:has(div[role=button]:has-text(Sponsored))
-
 !
 ! Promotion call-to-actions
 !
