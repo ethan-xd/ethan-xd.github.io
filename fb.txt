@@ -55,7 +55,6 @@ facebook.com##span#ssrb_composer_start + div:has-text(take a COVID-19 survey)
 ! FB Purity
 !
 facebook.com###fbpnewslink
-
 !
 ! m.facebook.com
 !
