@@ -17,6 +17,7 @@ facebook.com##div[data-pagelet^="FeedUnit_"]:has-text(Videos Just For You)
 facebook.com##div[data-pagelet^="FeedUnit_"]:has-text(make video calls with Messenger on Portal.)
 facebook.com##div[data-pagelet^="FeedUnit_"]:has(span:has-text(/^Suggested Page to follow$/))
 facebook.com##div[data-pagelet^="FeedUnit_"]:has(:xpath(.//div[text()='Sponsored']))
+facebook.com##div[data-pagelet^="FeedUnit_"]:has-text(Try an Ad Designed for Your Business)
 !
 ! Promotion call-to-actions
 !
