@@ -42,6 +42,7 @@ wikipedia.org###frb-nag
 twitch.tv##.front-page-carousel
 twitch.tv##.shelf-card__impression-wrapper:has(p[data-a-target=PROMOTION]):xpath(..)
 twitch.tv##.shelf-card__impression-wrapper:has(p[data-a-target=COMMUNITY_BOOST]):xpath(..)
+twitch.tv##.shelf-card__impression-wrapper:has-text(Promoted by the streamer's community):xpath(..)
 twitch.tv##.find-me:has-text(All aboard the Hype Train!)
 
 typeracer.com##.DialogBox:has-text(disqualified)
