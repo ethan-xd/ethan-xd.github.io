@@ -61,3 +61,8 @@ facebook.com###fbpnewslink
 ! m.facebook.com
 !
 m.facebook.com##article:has(header:has-text(/^Suggested for you$/))
+m.facebook.com##button:has-text(Boost Post)
+m.facebook.com##button:has-text(Boost Unavailable)
+m.facebook.com##div[data-nt='NT:BOX']:has-text(Reach More People With a Boosted Post):xpath(../..)
+m.facebook.com###context_header [href^="/pages/boosted_component_v2/view/"]:xpath(..)
+m.facebook.com##div[id^=feedback_inline] + div:has-text(This post is performing better than )
