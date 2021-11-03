@@ -18,6 +18,7 @@ facebook.com##div[data-pagelet^="FeedUnit_"]:has-text(make video calls with Mess
 facebook.com##div[data-pagelet^="FeedUnit_"]:has(span:has-text(/^Suggested Page to follow$/))
 facebook.com##div[data-pagelet^="FeedUnit_"]:has(:xpath(.//div[text()='Sponsored']))
 facebook.com##div[data-pagelet^="FeedUnit_"]:has-text(Try an Ad Designed for Your Business)
+facebook.com##div[data-pagelet^="FeedUnit_"]:has-text(Keep Your Page Up to Date)
 !
 ! Promotion call-to-actions
 !
