@@ -48,3 +48,8 @@ twitch.tv##.find-me:has-text(All aboard the Hype Train!)
 typeracer.com##.DialogBox:has-text(disqualified)
 
 w2g.tv##.w2g-top-message-small:has-text(ad blocker)
+
+nzherald.co.nz##button:has-text(Subscribe now)
+nzherald.co.nz###premium-toaster
+nzherald.co.nz##.email-boost
+nzherald.co.nz##article span[data-test-ui=story-card__label]:has-text(Premium):xpath(..)
