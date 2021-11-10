@@ -31,6 +31,7 @@ twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Topics to follow
 twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Topics to follow) + div
 twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Topics to follow) + div + div
 twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Topics to follow) + div + div + div
+twitter.com##article:has(a[href^=\/i\/topics\/]):xpath(../..)
 
 dextools.io##.ng-star-inserted.d-none.d-lg-block.d-lg-none.d-md-none.d-sm-none.text-center.banner
 dextools.io##.ng-star-inserted.ng-tns-c113-2.d-md-block.d-none.mb-4 > .ng-tns-c113-2.box-home:xpath(..)
