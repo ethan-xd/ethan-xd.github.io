@@ -4,6 +4,7 @@
 ! Redirect: https://raw.githubusercontent.com/ethan-xd/ethan-xd.github.io/master/personal.txt
 
 ||ogs.google.com/u/*/widget/callout
+||ogs.google.com/widget/callout
 google.com##[class$=__middle-slot-promo]
 
 youtube.com##span.vidiq-video-page-menu
