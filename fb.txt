@@ -56,6 +56,15 @@ facebook.com##a[href*=\/climatescienceinfo\/\?entry_point\=]:xpath(../..)
 facebook.com##span#ssrb_composer_start + div:has-text(Take a COVID-19 Survey)
 facebook.com##span#ssrb_composer_start + div:has-text(take a COVID-19 survey)
 !
+! Unpaid promotions
+!
+facebook.com##div[role=article] div[data-ad-preview=message]:has(a[href*="threadless.com"]):xpath(../../../..)
+facebook.com##div[role=article] div[data-ad-preview=message]:has(a[href*="palmtreat.design"]):xpath(../../../..)
+facebook.com##div[role=article] div[data-ad-preview=message]:has(a[href*="redbubble.com"]):xpath(../../../..)
+facebook.com##div[role=article] div[data-ad-preview=message]:has(a[href*="teespring.com"]):xpath(../../../..)
+facebook.com##div[role=article] div[data-ad-preview=message]:has(a[href*="dreamofmemes.com"]):xpath(../../../..)
+facebook.com##div[role=article] div[data-ad-preview=message]:has(a[href*="myshopify.com"]):xpath(../../../..)
+!
 ! FB Purity
 !
 facebook.com###fbpnewslink
