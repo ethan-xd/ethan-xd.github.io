@@ -41,7 +41,7 @@ dextools.io##.ng-star-inserted.isFaraland.ventures-project.mini-banner:xpath(..)
 wikipedia.org###frb-inline
 wikipedia.org###frb-nag
 
-web.archive.org###donate_banner
+archive.org###donate_banner
 
 twitch.tv##.front-page-carousel
 twitch.tv##.shelf-card__impression-wrapper:has(p[data-a-target=PROMOTION]):xpath(..)
