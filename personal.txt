@@ -53,6 +53,9 @@ typeracer.com##.DialogBox:has-text(disqualified)
 
 w2g.tv##.w2g-top-message-small:has-text(ad blocker)
 
+halotracker.com##.bordered-ad
+halotracker.com##.ad-container
+
 nzherald.co.nz##button:has-text(Subscribe now)
 nzherald.co.nz###premium-toaster
 nzherald.co.nz##.email-boost
