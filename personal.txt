@@ -40,6 +40,7 @@ dextools.io##.ng-star-inserted.isFaraland.ventures-project.mini-banner:xpath(..)
 
 wikipedia.org###frb-inline
 wikipedia.org###frb-nag
+wikipedia.org###siteNotice
 
 archive.org###donate_banner
 
