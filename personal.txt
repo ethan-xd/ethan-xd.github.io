@@ -17,6 +17,7 @@ youtube.com##.ytd-guide-entry-renderer.style-scope:has-text(Keyword Inspector):x
 youtube.com##header + div:has-text(Unlock the most advanced growth tools for creators)
 youtube.com##button.comment-templates-dropdown-button
 youtube.com##.vidiq-comment-filter
+youtube.com##ytd-grid-video-renderer:has-text(#shorts)
 
 steamcommunity.com###floatMoney
 steamcommunity.com##.tradePanel:has-text(SIH's Sponsors)
