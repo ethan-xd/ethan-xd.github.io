@@ -22,6 +22,7 @@ facebook.com##div[data-pagelet^="FeedUnit_"]:has-text(Keep Your Page Up to Date)
 facebook.com##div[data-pagelet^="FeedUnit_"]:has-text(Try an ad)
 facebook.com###watch_feed a:has(svg):xpath(../../../../..):has(a[aria-label=label]:has-text(S):has-text(p):has-text(o))
 facebook.com###watch_feed a:has(svg):xpath(../../../../..):has(a[aria-label=Sponsored])
+facebook.com##:xpath(//div[@role='article' and .//span[.='Suggested for you']])
 !
 ! Promotion call-to-actions
 !
