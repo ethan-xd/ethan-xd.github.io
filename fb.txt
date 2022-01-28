@@ -29,6 +29,7 @@ facebook.com##:xpath(//div[@role='article' and .//span[.='Suggested for you']])
 facebook.com##[aria-label="Boost Post"]
 facebook.com##[aria-label="Boost Again"]
 facebook.com##[aria-label="Boost Unavailable"]
+facebook.com##[aria-label="Boost unavailable"]
 facebook.com##[aria-label="Promote"]
 facebook.com##[aria-label="Promote Website"]
 facebook.com##[aria-label="Boost a Post"]
