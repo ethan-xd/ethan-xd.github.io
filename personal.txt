@@ -18,6 +18,8 @@ youtube.com##header + div:has-text(Unlock the most advanced growth tools for cre
 youtube.com##button.comment-templates-dropdown-button
 youtube.com##.vidiq-comment-filter
 youtube.com##ytd-grid-video-renderer:has-text(#shorts)
+youtube.com##ytd-grid-video-renderer:has-text(#Shorts)
+youtube.com##ytd-grid-video-renderer:has-text(#SHORTS)
 
 steamcommunity.com###floatMoney
 steamcommunity.com##.tradePanel:has-text(SIH's Sponsors)
@@ -26,7 +28,7 @@ duolingo.com##button:has-text(Try Plus)
 
 rabbit.namejeff.xyz##.vue-notification-group
 
-twitter.com##div[aria-label="Timeline: Trending now"]:xpath(../../../..)
+twitter.com##div[aria-label="Timeline: Trending now"]:xpath(../../..)
 twitter.com##div[aria-label="Timeline: "]:xpath(../../..)
 twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Topics to follow):xpath(preceding::div[1])
 twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Topics to follow)
@@ -36,13 +38,18 @@ twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Topics to follow
 twitter.com##article:has(a[href^=\/i\/topics\/]):xpath(../..)
 twitter.com##[href$=twitter_blue_sign_up]
 
+twitter.com##article:has-text(lightsrevel)
+twitter.com##article:has-text(cooltoolscafe)
+twitter.com##article:has-text(dimesso)
+twitter.com##article:has-text(dentrie)
+twitter.com##article:has-text(suctional)
+
 dextools.io##.ng-star-inserted.d-none.d-lg-block.d-lg-none.d-md-none.d-sm-none.text-center.banner
 dextools.io##.ng-star-inserted.ng-tns-c113-2.d-md-block.d-none.mb-4 > .ng-tns-c113-2.box-home:xpath(..)
 dextools.io##.ng-star-inserted.isFaraland.ventures-project.mini-banner:xpath(..)
 
 wikipedia.org###frb-inline
 wikipedia.org###frb-nag
-wikipedia.org###siteNotice
 
 archive.org###donate_banner
 
