@@ -72,6 +72,7 @@ halotracker.com##.ad-container
 
 vk.com##[id^=post-]:has-text(Promoted post)
 vk.com##.apps_feedRightAppsBlock
+vk.com##.PostHeaderActions__action:has-text(Promote)
 
 nzherald.co.nz##button:has-text(Subscribe now)
 nzherald.co.nz###premium-toaster
