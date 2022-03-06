@@ -73,6 +73,7 @@ facebook.com##div[role=article] div[data-ad-preview=message]:has(a[href*="redbub
 facebook.com##div[role=article] div[data-ad-preview=message]:has(a[href*="teespring.com"]):xpath(../../../..)
 facebook.com##div[role=article] div[data-ad-preview=message]:has(a[href*="dreamofmemes.com"]):xpath(../../../..)
 facebook.com##div[role=article] div[data-ad-preview=message]:has(a[href*="myshopify.com"]):xpath(../../../..)
+facebook.com##div[role=article] div[data-ad-preview=message]:has(a[href*="is.gd"]):xpath(../../../..)
 !
 ! FB Purity
 !
