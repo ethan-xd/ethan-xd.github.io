@@ -20,6 +20,9 @@ youtube.com##.vidiq-comment-filter
 youtube.com##ytd-grid-video-renderer:has-text(#shorts)
 youtube.com##ytd-grid-video-renderer:has-text(#Shorts)
 youtube.com##ytd-grid-video-renderer:has-text(#SHORTS)
+youtube.com###voice-search-button
+youtube.com##ytd-compact-radio-renderer
+youtube.com##ytd-download-button-renderer
 
 steamcommunity.com###floatMoney
 steamcommunity.com##.tradePanel:has-text(SIH's Sponsors)
@@ -61,10 +64,14 @@ twitch.tv##.find-me:has-text(All aboard the Hype Train!)
 
 typeracer.com##.DialogBox:has-text(disqualified)
 
-w2g.tv##.w2g-top-message-small:has-text(ad blocker)
+w2g.tv##.w2g-until-mobile:has-text(Upgrade)
+w2g.tv##.w2g-doit
 
 halotracker.com##.bordered-ad
 halotracker.com##.ad-container
+
+vk.com##[id^=post-]:has-text(Promoted post)
+vk.com##.apps_feedRightAppsBlock
 
 nzherald.co.nz##button:has-text(Subscribe now)
 nzherald.co.nz###premium-toaster
