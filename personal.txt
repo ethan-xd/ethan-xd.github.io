@@ -23,6 +23,7 @@ youtube.com##ytd-grid-video-renderer:has-text(#SHORTS)
 youtube.com###voice-search-button
 youtube.com##ytd-compact-radio-renderer
 youtube.com##ytd-download-button-renderer
+youtube.com###endpoint:has-text(Shorts)
 
 steamcommunity.com###floatMoney
 steamcommunity.com##.tradePanel:has-text(SIH's Sponsors)
@@ -40,6 +41,7 @@ twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Topics to follow
 twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Topics to follow) + div + div + div
 twitter.com##article:has(a[href^=\/i\/topics\/]):xpath(../..)
 twitter.com##[href$=twitter_blue_sign_up]
+#twitter.com##[data-testid=UserCell]:has(svg[aria-label="Verified account"])
 
 twitter.com##article:has-text(lightsrevel)
 twitter.com##article:has-text(cooltoolscafe)
@@ -78,3 +80,5 @@ nzherald.co.nz##button:has-text(Subscribe now)
 nzherald.co.nz###premium-toaster
 nzherald.co.nz##.email-boost
 nzherald.co.nz##article span[data-test-ui=story-card__label]:has-text(Premium):xpath(..)
+
+socialblade.com##.socialblade-heartbeat:xpath(../..)
