@@ -83,3 +83,6 @@ nzherald.co.nz##.email-boost
 nzherald.co.nz##article span[data-test-ui=story-card__label]:has-text(Premium):xpath(..)
 
 socialblade.com##.socialblade-heartbeat:xpath(../..)
+
+nytimes.com##.MAG_web_all_Monthly-Sale-dock
+nytimes.com###gateway-content:xpath(..)
