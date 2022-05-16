@@ -28,6 +28,7 @@ facebook.com##div[data-pagelet^=FeedUnit_]:has-text(This shop has added new item
 facebook.com##div[data-pagelet^=FeedUnit_]:has-text(Reels and short videos)
 facebook.com##div[data-pagelet^=FeedUnit_]:has-text(This is how your ad will look)
 facebook.com##:xpath(//div[@role='article' and .//span[@aria-labelledby=//span[.='Sponsored']/@id]])
+facebook.com##div[role=article]:has(b:has-text(S):has-text(p):has-text(o):has-text(n):has-text(s):has-text(o):has-text(r):has-text(e):has-text(d))
 !
 ! Promotion call-to-actions
 !
