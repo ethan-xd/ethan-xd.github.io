@@ -5,8 +5,6 @@
 !
 ! Ads and suggestions
 !
-facebook.com##div[role=feed] > div:has(a[aria-label=Sponsored])
-facebook.com##div[role=feed] > div:has(a[aria-label=label]:has-text(S):has-text(p):has-text(o):has-text(n):has-text(s):has-text(r):has-text(e):has-text(d))
 facebook.com##div[role=feed] > div:has(span:has-text(Suggested for you))
 facebook.com##div[data-pagelet="RightRail"] > div > span > div:has-text(Sponsored)
 facebook.com##div[data-pagelet="RightRail"] > div > div:has-text(Suggested)
@@ -18,15 +16,9 @@ facebook.com##div[role=feed] > div:has(:xpath(.//div[text()='Sponsored']))
 facebook.com##div[role=feed] > div:has-text(Try an Ad Designed for Your Business)
 facebook.com##div[role=feed] > div:has-text(Keep Your Page Up to Date)
 facebook.com##div[role=feed] > div:has-text(Try an ad)
-facebook.com###watch_feed a:has(svg):xpath(../../../../..):has(a[aria-label=label]:has-text(S):has-text(p):has-text(o):has-text(n):has-text(s):has-text(r):has-text(e):has-text(d))
-facebook.com###watch_feed a:has(svg):xpath(../../../../..):has(a[aria-label=Sponsored])
-facebook.com##:xpath(//div[@role='article' and .//span[.='Suggested for you']])
-facebook.com##div[role=article]:has(div[role='button']:has-text(Sponsored))
 facebook.com##div[role=feed] > div:has-text(This shop has added new items.)
 facebook.com##div[role=feed] > div:has-text(Reels and short videos)
 facebook.com##div[role=feed] > div:has-text(This is how your ad will look)
-facebook.com##:xpath(//div[@role='article' and .//span[@aria-labelledby=//span[.='Sponsored']/@id]])
-facebook.com##div[role=article]:has(b:has-text(S):has-text(p):has-text(o):has-text(n):has-text(s):has-text(o):has-text(r):has-text(e):has-text(d))
 !
 ! Promotion call-to-actions
 !
