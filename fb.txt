@@ -3,23 +3,28 @@
 ! Expires: 1 day
 ! Redirect: https://raw.githubusercontent.com/ethan-xd/ethan-xd.github.io/master/fb.txt
 !
-! Ads and suggestions
+! Sponsored
 !
-facebook.com##div[role=feed] > div:has(span:has-text(Suggested for you))
+! Microsoft Edge
+facebook.com##div[role=article]:has(b:has-text(/S-*p-*o-*n-*s-*o-*r-*e-*d/))
+! Google Chrome, Ungoogled Chromium, Chromium(?)
+facebook.com##div[role=article]:has(span[style*="order: 3;"]:not(:matches-css(display:none)):has-text(S)):not(div[style*=border-radius] > div > div > div > div[class=""] ~ div:nth-of-type(3):has(a[href="#"])):not(:has(svg path[d*="M460.869"]))
+!
+! Other ads and suggestions
+!
+facebook.com##div[role=article]:has-text(Suggested for you)
+facebook.com##div[role=article]:has-text(Videos Just For You)
+facebook.com##div[role=article]:has-text(make video calls with Messenger on Portal.)
+facebook.com##div[role=article]:has-text(Suggested Page to follow)
+facebook.com##div[role=article]:has-text(Try an Ad Designed for Your Business)
+facebook.com##div[role=article]:has-text(Keep Your Page Up to Date)
+facebook.com##div[role=article]:has-text(Try an ad)
+facebook.com##div[role=article]:has-text(This shop has added new items.)
+facebook.com##div[role=article]:has-text(Reels and short videos)
+facebook.com##div[role=article]:has-text(This is how your ad will look)
 facebook.com##div[data-pagelet="RightRail"] > div > span > div:has-text(Sponsored)
 facebook.com##div[data-pagelet="RightRail"] > div > div:has-text(Suggested)
 facebook.com##div[data-pagelet="RightRail"] > div > div:has-text(Continue Watching)
-facebook.com##div[role=feed] > div:has-text(Videos Just For You)
-facebook.com##div[role=feed] > div:has-text(make video calls with Messenger on Portal.)
-facebook.com##div[role=feed] > div:has(span:has-text(/^Suggested Page to follow$/))
-facebook.com##div[role=feed] > div:has(:xpath(.//div[text()='Sponsored']))
-facebook.com##div[role=feed] > div:has-text(Try an Ad Designed for Your Business)
-facebook.com##div[role=feed] > div:has-text(Keep Your Page Up to Date)
-facebook.com##div[role=feed] > div:has-text(Try an ad)
-facebook.com##div[role=feed] > div:has-text(This shop has added new items.)
-facebook.com##div[role=feed] > div:has-text(Reels and short videos)
-facebook.com##div[role=feed] > div:has-text(This is how your ad will look)
-facebook.com##div[role=article]:has(b:has-text(/S-*p-*o-*n-*s-*o-*r-*e-*d/))
 !
 ! Promotion call-to-actions
 !
