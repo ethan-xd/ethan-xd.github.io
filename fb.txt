@@ -19,6 +19,7 @@ facebook.com##div[role=feed] > div:has-text(Try an ad)
 facebook.com##div[role=feed] > div:has-text(This shop has added new items.)
 facebook.com##div[role=feed] > div:has-text(Reels and short videos)
 facebook.com##div[role=feed] > div:has-text(This is how your ad will look)
+facebook.com##div[role=article]:has(b:has-text(/S-*p-*o-*n-*s-*o-*r-*e-*d/))
 !
 ! Promotion call-to-actions
 !
