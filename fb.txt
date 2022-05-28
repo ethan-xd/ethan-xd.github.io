@@ -57,7 +57,8 @@ facebook.com##a[href$=\/ad_center\/\?refSource\=pages_manager_bar]:xpath(..)
 !
 ! Other annoyances
 !
-facebook.com##div[data-pagelet^=VideoChatHomeUnit]
+facebook.com###ssrb_stories_start + div
+facebook.com##div[aria-label*="video chats"]:upward(9)
 facebook.com##a[href*=\/coronavirus_info\/\?page_source\=bookmark]:xpath(../..)
 facebook.com##a[href*=\/climatescienceinfo\/\?entry_point\=]:xpath(../..)
 facebook.com##span#ssrb_composer_start + div:has-text(Take a COVID-19 Survey)
