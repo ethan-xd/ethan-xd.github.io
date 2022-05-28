@@ -8,7 +8,7 @@
 ! Microsoft Edge
 facebook.com##div[role=article]:has(b:has-text(/S-*p-*o-*n-*s-*o-*r-*e-*d/))
 ! Google Chrome, Ungoogled Chromium, Chromium(?)
-facebook.com##div[role=article]:has(span[style^="order: "]:has-text(/^S$/):not(:matches-css(position: absolute)):not(:matches-css(display: none))):not(:has(div[style*=border-radius] div[class=""] ~ div:nth-of-type(3):not(:has(object)):not(:has(ul)):has(span[style^="order: "]:has-text(/^S$/)))):not(:has(svg path[d^="M460.869"])):not(:has(svg path[d^="M459.75"]))
+facebook.com##div[role=article]:has(span[style^="order: "]:has-text(/^S$/):matches-css(position: relative):not(:matches-css(display: none))):not(:has(span[style^="order: "]:has-text(/^b$/):matches-css(position:relative):not(:matches-css(display:none)))):not(:has(div[style*=border-radius] div[class=""] ~ div:nth-of-type(3):not(:has(object)):not(:has(ul)):has(span[style^="order: "]:has-text(/^S$/)))):not(:has(svg path[d^="M460.869"])):not(:has(svg path[d^="M459.75"]))
 !
 ! Other ads and suggestions
 !
