@@ -25,6 +25,7 @@ facebook.com##div[role=article]:has-text(This is how your ad will look)
 facebook.com##div[data-pagelet="RightRail"] > div > span > div:has-text(Sponsored)
 facebook.com##div[data-pagelet="RightRail"] > div > div:has-text(Suggested)
 facebook.com##div[data-pagelet="RightRail"] > div > div:has-text(Continue Watching)
+facebook.com##div[role=complementary] span:has-text(Sponsored)
 !
 ! Promotion call-to-actions
 !
