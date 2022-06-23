@@ -9,6 +9,7 @@ facebook.com##div[role=article]:has(b:has-text(/S-*p-*o-*n-*s-*o-*r-*e-*d/))
 facebook.com##div[role=article]:has(span[style^="order: "]:has-text(/^S$/):matches-css(position:relative):not(:matches-css(display:none))):not(:has(span[style^="order: "]:has-text(/^b$/):matches-css(position:relative):not(:matches-css(display:none)))):not(:has(div[style*=border-radius] div[class=""] ~ div:nth-of-type(3):not(:has(object)):not(:has(ul)):not(:has(span[style^="order: "]:has-text(/^B$/)):not(:matches-css(display:none))):has(span[style^="order: "]:has-text(/^S$/)))):not(:has(svg path[d^="M460.869"])):not(:has(svg path[d^="M459.75"]))
 facebook.com##div[role=article]:has-text(· Paid for by )
 facebook.com##div[role=article]:has(a:has-text(Paid partnership))
+facebook.com##:xpath(//div[@role='article' and count(.//div[(./*)[1][name(.)='DIV' and @class=''] and count(./div) = 4]/div[2]//span[.='S' and contains(@style, 'order:')]) > 1])
 !
 ! Other ads and suggestions
 !
