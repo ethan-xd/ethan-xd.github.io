@@ -6,8 +6,7 @@
 ! Sponsored
 !
 facebook.com##div[role=article]:has(b:has-text(/S-*p-*o-*n-*s-*o-*r-*e-*d/))
-facebook.com##div[role=article]:has(span[style^="order: "]:has-text(/^S$/):matches-css(position:relative):not(:matches-css(display:none))):not(:has(span[style^="order: "]:has-text(/^b$/):matches-css(position:relative):not(:matches-css(display:none)))):not(:has(div[style*=border-radius] div[class=""] ~ div:nth-of-type(3):not(:has(object)):not(:has(ul)):not(:has(span[style^="order: "]:has-text(/^B$/)):not(:matches-css(display:none))):has(span[style^="order: "]:has-text(/^S$/)))):not(:has(svg path[d^="M460.869"])):not(:has(svg path[d^="M459.75"]))
-facebook.com##div[role=article]:has(div[style^="order: "]:has-text(/^S$/):matches-css(position:relative):not(:matches-css(display:none))):not(:has(div[style^="order: "]:has-text(/^b$/):matches-css(position:relative):not(:matches-css(display:none)))):not(:has(div[style*=border-radius] div[class=""] ~ div:nth-of-type(3):not(:has(object)):not(:has(ul)):not(:has(div[style^="order: "]:has-text(/^B$/)):not(:matches-css(display:none))):has(div[style^="order: "]:has-text(/^S$/)))):not(:has(svg path[d^="M460.869"])):not(:has(svg path[d^="M459.75"]))
+facebook.com##div[role=article],#watch_feed>div>div>div>div>div>div:has(span,div[style^="order: "]:has-text(/^S$/):matches-css(position:relative):not(:matches-css(display:none))):not(:has(span,div[style^="order: "]:has-text(/^b$/):matches-css(position:relative):not(:matches-css(display:none)))):not(:has(div[style*=border-radius] div[class=""] ~ div:nth-of-type(3):not(:has(object)):not(:has(ul)):not(:has(span,div[style^="order: "]:has-text(/^B$/)):not(:matches-css(display:none))):has(span,div[style^="order: "]:has-text(/^S$/)))):not(:has(svg path[d^="M460.869"])):not(:has(svg path[d^="M459.75"]))
 facebook.com##:xpath(//div[@role='article' and .//div[(./*)[1][(name(.)='div' or name(.)='DIV') and @class=''] and count(./div) > 3]/div[2][count(.//span[.='S' and contains(@style, 'order:')]) > 1 and count(.//span[.='p' and contains(@style, 'order:')]) > 1 and count(.//span[.='o' and contains(@style, 'order:')]) > 1 and count(.//span[.='n' and contains(@style, 'order:')]) > 1]])
 facebook.com##:xpath(//div[@role='article' and .//div[(./*)[1][(name(.)='div' or name(.)='DIV') and @class=''] and count(./div) > 3]/div[2][count(.//div[.='S' and contains(@style, 'order:')]) > 1 and count(.//div[.='p' and contains(@style, 'order:')]) > 1 and count(.//div[.='o' and contains(@style, 'order:')]) > 1 and count(.//div[.='n' and contains(@style, 'order:')]) > 1]])
 facebook.com##div[role=article]:has-text(· Paid for by )
@@ -29,6 +28,7 @@ facebook.com##div[data-pagelet="RightRail"] > div > span > div:has-text(Sponsore
 facebook.com##div[data-pagelet="RightRail"] > div > div:has-text(Suggested)
 facebook.com##div[data-pagelet="RightRail"] > div > div:has-text(Continue Watching)
 facebook.com##div[role=complementary] span:has-text(Sponsored)
+facebook.com##div[aria-label="Videos on Facebook Watch"] a[aria-label]:has-text(Sponsored)
 !
 ! Promotion call-to-actions
 !
