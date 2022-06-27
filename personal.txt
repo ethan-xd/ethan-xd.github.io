@@ -42,7 +42,7 @@ twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Topics to follow
 twitter.com##article:has(a[href^=\/i\/topics\/]):xpath(../../..)
 twitter.com##article:has(a[href^=\/i\/spaces\/]):xpath(../../..)
 twitter.com##[href$=twitter_blue_sign_up]
-#twitter.com##[data-testid=UserCell]:has(svg[aria-label="Verified account"])
+!twitter.com##[data-testid=UserCell]:has(svg[aria-label="Verified account"])
 
 twitter.com##article:has-text(lightsrevel)
 twitter.com##article:has-text(cooltoolscafe)
@@ -86,3 +86,10 @@ socialblade.com##.socialblade-heartbeat:xpath(../..)
 
 nytimes.com##.MAG_web_all_Monthly-Sale-dock
 nytimes.com###gateway-content:xpath(..)
+
+||rokt.com
+
+quora.com###root>.q-box>.q-box>.q-box.qu-overflow--hidden:style(filter: blur(0px) !important; overflow-y: scroll !important)
+quora.com###root>.q-box>.q-box>.q-box.qu-overflow--hidden > .q-box:style(height: 0px !important)
+quora.com###root>.q-box>.q-box>.q-box.qu-overflow--hidden > .q-box + div:style(position: sticky !important)
+quora.com##.qu-zIndex--blocking_wall
