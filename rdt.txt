@@ -8,6 +8,7 @@
 reddit.com,old.reddit.com##div.spacer > a.premium-banner-outer
 reddit.com,old.reddit.com##li.give-gold-button
 reddit.com,old.reddit.com###redesign-beta-optin-btn
+reddit.com,old.reddit.com##.thing[data-url*="/predictions?"]
 !
 ! New Reddit
 !
