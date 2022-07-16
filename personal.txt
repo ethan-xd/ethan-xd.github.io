@@ -44,11 +44,23 @@ twitter.com##article:has(a[href^=\/i\/spaces\/]):xpath(../../..)
 twitter.com##[href$=twitter_blue_sign_up]
 !twitter.com##[data-testid=UserCell]:has(svg[aria-label="Verified account"])
 
+twitter.com##article:has(a:has-text(/products/))
+twitter.com##article:has(a:has-text(.shop))
+twitter.com##article:has-text(heck out):has(a)
+twitter.com##article:has-text(gift):has(a)
 twitter.com##article:has-text(lightsrevel)
 twitter.com##article:has-text(cooltoolscafe)
 twitter.com##article:has-text(dimesso)
 twitter.com##article:has-text(dentrie)
 twitter.com##article:has-text(suctional)
+twitter.com##article:has-text(oceangalaxylight)
+twitter.com##article:has-text(sunsetic)
+twitter.com##article:has-text(owlprojector)
+twitter.com##article:has-text(soulmatecharms)
+twitter.com##article:has-text(agorathreads)
+twitter.com##article:has-text(etsy.com)
+twitter.com##article:has-text(amazon.com)
+twitter.com##article:has-text(shopify.com)
 
 dextools.io##.ng-star-inserted.d-none.d-lg-block.d-lg-none.d-md-none.d-sm-none.text-center.banner
 dextools.io##.ng-star-inserted.ng-tns-c113-2.d-md-block.d-none.mb-4 > .ng-tns-c113-2.box-home:xpath(..)
@@ -84,12 +96,11 @@ nzherald.co.nz##article span[data-test-ui=story-card__label]:has-text(Premium):x
 
 socialblade.com##.socialblade-heartbeat:xpath(../..)
 
-nytimes.com##.MAG_web_all_Monthly-Sale-dock
-nytimes.com###gateway-content:xpath(..)
-
 ||rokt.com
 
 quora.com###root>.q-box>.q-box>.q-box.qu-overflow--hidden:style(filter: blur(0px) !important; overflow-y: scroll !important)
 quora.com###root>.q-box>.q-box>.q-box.qu-overflow--hidden > .q-box:style(height: 0px !important)
 quora.com###root>.q-box>.q-box>.q-box.qu-overflow--hidden > .q-box + div:style(position: sticky !important)
 quora.com##.qu-zIndex--blocking_wall
+
+puzzlebaron.com###undernav
