@@ -11,6 +11,7 @@ facebook.com##:xpath(//div[@role='article' and .//div[(./*)[1][(name(.)='div' or
 facebook.com##:xpath(//div[@role='article' and .//div[(./*)[1][(name(.)='div' or name(.)='DIV') and @class=''] and count(./div) > 3]/div[2][count(.//div[.='S' and contains(@style, 'order:')]) > 1 and count(.//div[.='p' and contains(@style, 'order:')]) > 1 and count(.//div[.='o' and contains(@style, 'order:')]) > 1 and count(.//div[.='n' and contains(@style, 'order:')]) > 1]])
 facebook.com##div[role=article] path[d^='M109.5'],path[d^='M102']:upward(span[id]) > span:has(div:has-text(/^S$/):matches-css(position: relative)):not(div:has-text(/^b$/):matches-css(position: relative)):upward(div[role=article])
 facebook.com###watch_feed>div>div>div>div>div>div path[d^='M109.5'],path[d^='M102']:upward(span[dir=auto]) > span:has(div:has-text(/^S$/):matches-css(position: relative)):not(div:has-text(/^b$/):matches-css(position: relative)):upward(#watch_feed>div>div>div>div>div>div)
+facebook.com##div[role=article]:has(a[aria-label=Sponsored])
 facebook.com##div[role=article]:has-text(· Paid for by )
 facebook.com##div[role=article]:has(a:has-text(Paid partnership))
 !
