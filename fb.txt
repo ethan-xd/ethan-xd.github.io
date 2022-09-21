@@ -14,6 +14,7 @@ facebook.com###watch_feed>div>div>div>div>div>div path[d^='M109.5'],path[d^='M10
 facebook.com##div[role=article]:has(a[aria-label=Sponsored])
 facebook.com##div[role=article]:has-text(· Paid for by )
 facebook.com##div[role=article]:has(a:has-text(Paid partnership))
+facebook.com##:xpath(//div[@role='article' and .//*[name()='svg' and substring-after(./*[name()='use']/attribute::*[starts-with(., '#')], '#')=//*[name()='text' and .='Sponsored']/@id]])
 !
 ! Other ads and suggestions
 !
