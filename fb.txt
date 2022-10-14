@@ -17,7 +17,12 @@ facebook.com##div[aria-posinset]:has(a[aria-label=Sponsored])
 facebook.com##div[aria-posinset]:has-text(· Paid for by )
 facebook.com##div[aria-posinset]:has(a:has-text(Paid partnership))
 !facebook.com##:xpath(//div[@aria-posinset and .//*[name()='svg' and substring-after(./*[name()='use']/attribute::*[starts-with(., '#')], '#')=//*[name()='text' and .='Sponsored']/@id]]):upward(6):remove()
+!#if env_chromium
 facebook.com##:xpath(//div[@aria-posinset and .//*[name()='use']/parent::*[name()='svg' and (number(substring-before(substring-after(@style, 'margin-right:'), 'px')) + number(substring-before(substring-after(@style, 'width:'), 'px'))) > 56.89 and (number(substring-before(substring-after(@style, 'margin-right:'), 'px')) + number(substring-before(substring-after(@style, 'width:'), 'px'))) < 56.892]]):upward(6)
+!#endif
+!#if env_firefox
+facebook.com##:xpath(//div[@aria-posinset and .//*[name()='use']/parent::*[name()='svg' and (number(substring-before(substring-after(@style, 'margin-right:'), 'px')) + number(substring-before(substring-after(@style, 'width:'), 'px'))) > 58.9 and (number(substring-before(substring-after(@style, 'margin-right:'), 'px')) + number(substring-before(substring-after(@style, 'width:'), 'px'))) < 59.1]]):upward(6)
+!#endif
 !
 ! Other ads and suggestions
 !
