@@ -3,6 +3,8 @@
 ! Expires: 1 day
 ! Redirect: https://raw.githubusercontent.com/ethan-xd/ethan-xd.github.io/master/fb.txt
 !
+! If you're seeing Sponsored posts, let us know: https://github.com/ethan-xd/ethan-xd.github.io/issues
+!
 ! Sponsored
 !
 facebook.com##div[aria-posinset]:has(b:has-text(/S-*p-*o-*n-*s-*o-*r-*e-*d/))
