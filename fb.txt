@@ -40,7 +40,7 @@ facebook.com##div[data-pagelet="RightRail"] > div > span > div:has-text(Sponsore
 facebook.com##div[data-pagelet="RightRail"] > div > div:has-text(Suggested)
 facebook.com##div[data-pagelet="RightRail"] > div > div:has-text(Continue Watching)
 facebook.com##div[role=complementary] span:has-text(Sponsored)
-facebook.com##div[aria-label="Videos on Facebook Watch"] a[aria-label]:has-text(Sponsored)
+facebook.com###watch_feed a[aria-label]:has-text(Sponsored)
 !
 ! Promotion call-to-actions
 !
