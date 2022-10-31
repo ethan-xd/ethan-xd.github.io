@@ -5,7 +5,7 @@
 !
 ! If you're seeing Sponsored posts, let us know: https://github.com/ethan-xd/ethan-xd.github.io/issues
 !
-! Sponsored
+! Feed Sponsored
 !
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset]:has(b:has-text(/S-*p-*o-*n-*s-*o-*r-*e-*d/))
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset],#watch_feed>div>div>div>div>div>div:has(span,div[style^="order: "]:has-text(/^S$/):matches-css(position:relative):not(:matches-css(display:none))):not(:has(span,div[style^="order: "]:has-text(/^b$/):matches-css(position:relative):not(:matches-css(display:none)))):not(:has(div[style*=border-radius] div[class=""] ~ div:nth-of-type(3):not(:has(object)):not(:has(ul)):not(:has(span,div[style^="order: "]:has-text(/^B$/)):not(:matches-css(display:none))):has(span,div[style^="order: "]:has-text(/^S$/)))):not(:has(svg path[d^="M460.869"])):not(:has(svg path[d^="M459.75"]))
@@ -41,6 +41,8 @@ facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[data-pagelet="RightRail"] > div > div:has-text(Continue Watching)
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[role=complementary] span:has-text(Sponsored)
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###watch_feed a[aria-label]:has-text(Sponsored)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href^="/ads/"]:upward(1):matches-path(marketplace)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href^="/ads/"]:upward(4) + div > div:first-child:matches-path(marketplace)
 !
 ! Promotion call-to-actions
 !
