@@ -7,95 +7,95 @@
 !
 ! Sponsored
 !
-facebook.com##div[aria-posinset]:has(b:has-text(/S-*p-*o-*n-*s-*o-*r-*e-*d/))
-facebook.com##div[aria-posinset],#watch_feed>div>div>div>div>div>div:has(span,div[style^="order: "]:has-text(/^S$/):matches-css(position:relative):not(:matches-css(display:none))):not(:has(span,div[style^="order: "]:has-text(/^b$/):matches-css(position:relative):not(:matches-css(display:none)))):not(:has(div[style*=border-radius] div[class=""] ~ div:nth-of-type(3):not(:has(object)):not(:has(ul)):not(:has(span,div[style^="order: "]:has-text(/^B$/)):not(:matches-css(display:none))):has(span,div[style^="order: "]:has-text(/^S$/)))):not(:has(svg path[d^="M460.869"])):not(:has(svg path[d^="M459.75"]))
-facebook.com##:xpath(//div[@aria-posinset and .//div[(./*)[1][(name(.)='div' or name(.)='DIV') and @class=''] and count(./div) > 3]/div[2][count(.//span[.='S' and contains(@style, 'order:')]) > 1 and count(.//span[.='p' and contains(@style, 'order:')]) > 1 and count(.//span[.='o' and contains(@style, 'order:')]) > 1 and count(.//span[.='n' and contains(@style, 'order:')]) > 1]])
-facebook.com##:xpath(//div[@aria-posinset and .//div[(./*)[1][(name(.)='div' or name(.)='DIV') and @class=''] and count(./div) > 3]/div[2][count(.//div[.='S' and contains(@style, 'order:')]) > 1 and count(.//div[.='p' and contains(@style, 'order:')]) > 1 and count(.//div[.='o' and contains(@style, 'order:')]) > 1 and count(.//div[.='n' and contains(@style, 'order:')]) > 1]])
-facebook.com##div[aria-posinset] path[d^='M109.5'],path[d^='M102']:upward(span[id]) > span:has(div:has-text(/^S$/):matches-css(position: relative)):not(div:has-text(/^b$/):matches-css(position: relative)):upward(div[aria-posinset])
-facebook.com###watch_feed>div>div>div>div>div>div path[d^='M109.5'],path[d^='M102']:upward(span[dir=auto]) > span:has(div:has-text(/^S$/):matches-css(position: relative)):not(div:has-text(/^b$/):matches-css(position: relative)):upward(#watch_feed>div>div>div>div>div>div)
-facebook.com##div[aria-posinset]:has(a[aria-label=Sponsored])
-facebook.com##div[aria-posinset]:has-text(· Paid for by )
-facebook.com##div[aria-posinset]:has(a:has-text(Paid partnership))
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset]:has(b:has-text(/S-*p-*o-*n-*s-*o-*r-*e-*d/))
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset],#watch_feed>div>div>div>div>div>div:has(span,div[style^="order: "]:has-text(/^S$/):matches-css(position:relative):not(:matches-css(display:none))):not(:has(span,div[style^="order: "]:has-text(/^b$/):matches-css(position:relative):not(:matches-css(display:none)))):not(:has(div[style*=border-radius] div[class=""] ~ div:nth-of-type(3):not(:has(object)):not(:has(ul)):not(:has(span,div[style^="order: "]:has-text(/^B$/)):not(:matches-css(display:none))):has(span,div[style^="order: "]:has-text(/^S$/)))):not(:has(svg path[d^="M460.869"])):not(:has(svg path[d^="M459.75"]))
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##:xpath(//div[@aria-posinset and .//div[(./*)[1][(name(.)='div' or name(.)='DIV') and @class=''] and count(./div) > 3]/div[2][count(.//span[.='S' and contains(@style, 'order:')]) > 1 and count(.//span[.='p' and contains(@style, 'order:')]) > 1 and count(.//span[.='o' and contains(@style, 'order:')]) > 1 and count(.//span[.='n' and contains(@style, 'order:')]) > 1]])
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##:xpath(//div[@aria-posinset and .//div[(./*)[1][(name(.)='div' or name(.)='DIV') and @class=''] and count(./div) > 3]/div[2][count(.//div[.='S' and contains(@style, 'order:')]) > 1 and count(.//div[.='p' and contains(@style, 'order:')]) > 1 and count(.//div[.='o' and contains(@style, 'order:')]) > 1 and count(.//div[.='n' and contains(@style, 'order:')]) > 1]])
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset] path[d^='M109.5'],path[d^='M102']:upward(span[id]) > span:has(div:has-text(/^S$/):matches-css(position: relative)):not(div:has-text(/^b$/):matches-css(position: relative)):upward(div[aria-posinset])
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###watch_feed>div>div>div>div>div>div path[d^='M109.5'],path[d^='M102']:upward(span[dir=auto]) > span:has(div:has-text(/^S$/):matches-css(position: relative)):not(div:has-text(/^b$/):matches-css(position: relative)):upward(#watch_feed>div>div>div>div>div>div)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset]:has(a[aria-label=Sponsored])
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset]:has-text(· Paid for by )
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset]:has(a:has-text(Paid partnership))
 !facebook.com##:xpath(//div[@aria-posinset and .//*[name()='svg' and substring-after(./*[name()='use']/attribute::*[starts-with(., '#')], '#')=//*[name()='text' and .='Sponsored']/@id]]):upward(6):remove()
 !#if env_chromium
-facebook.com##:xpath(//div[@aria-posinset and .//*[name()='use']/parent::*[name()='svg' and (number(substring-before(substring-after(@style, 'margin-right:'), 'px')) + number(substring-before(substring-after(@style, 'width:'), 'px'))) > 56.885 and (number(substring-before(substring-after(@style, 'margin-right:'), 'px')) + number(substring-before(substring-after(@style, 'width:'), 'px'))) < 56.895]]):upward(6)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##:xpath(//div[@aria-posinset and .//*[name()='use']/parent::*[name()='svg' and (number(substring-before(substring-after(@style, 'margin-right:'), 'px')) + number(substring-before(substring-after(@style, 'width:'), 'px'))) > 56.885 and (number(substring-before(substring-after(@style, 'margin-right:'), 'px')) + number(substring-before(substring-after(@style, 'width:'), 'px'))) < 56.895]]):upward(6)
 !#endif
 !#if env_firefox
-facebook.com##:xpath(//div[@aria-posinset and .//*[name()='use']/parent::*[name()='svg' and (number(substring-before(substring-after(@style, 'margin-right:'), 'px')) + number(substring-before(substring-after(@style, 'width:'), 'px'))) > 58.9 and (number(substring-before(substring-after(@style, 'margin-right:'), 'px')) + number(substring-before(substring-after(@style, 'width:'), 'px'))) < 59.1]]):upward(6)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##:xpath(//div[@aria-posinset and .//*[name()='use']/parent::*[name()='svg' and (number(substring-before(substring-after(@style, 'margin-right:'), 'px')) + number(substring-before(substring-after(@style, 'width:'), 'px'))) > 58.9 and (number(substring-before(substring-after(@style, 'margin-right:'), 'px')) + number(substring-before(substring-after(@style, 'width:'), 'px'))) < 59.1]]):upward(6)
 !#endif
 !
 ! Other ads and suggestions
 !
-facebook.com##div[aria-posinset]:has-text(Suggested for you)
-facebook.com##div[aria-posinset]:has-text(Videos Just For You)
-facebook.com##div[aria-posinset]:has-text(make video calls with Messenger on Portal.)
-facebook.com##div[aria-posinset]:has-text(Suggested Page to follow)
-facebook.com##div[aria-posinset]:has-text(Try an Ad Designed for Your Business)
-facebook.com##div[aria-posinset]:has-text(Keep Your Page Up to Date)
-facebook.com##div[aria-posinset]:has-text(Try an ad)
-facebook.com##div[aria-posinset]:has-text(This shop has added new items.)
-facebook.com##div[aria-posinset]:has-text(Reels and short videos)
-facebook.com##div[aria-posinset]:has-text(This is how your ad will look)
-facebook.com##div[data-pagelet="RightRail"] > div > span > div:has-text(Sponsored)
-facebook.com##div[data-pagelet="RightRail"] > div > div:has-text(Suggested)
-facebook.com##div[data-pagelet="RightRail"] > div > div:has-text(Continue Watching)
-facebook.com##div[role=complementary] span:has-text(Sponsored)
-facebook.com###watch_feed a[aria-label]:has-text(Sponsored)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset]:has-text(Suggested for you)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset]:has-text(Videos Just For You)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset]:has-text(make video calls with Messenger on Portal.)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset]:has-text(Suggested Page to follow)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset]:has-text(Try an Ad Designed for Your Business)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset]:has-text(Keep Your Page Up to Date)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset]:has-text(Try an ad)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset]:has-text(This shop has added new items.)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset]:has-text(Reels and short videos)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset]:has-text(This is how your ad will look)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[data-pagelet="RightRail"] > div > span > div:has-text(Sponsored)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[data-pagelet="RightRail"] > div > div:has-text(Suggested)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[data-pagelet="RightRail"] > div > div:has-text(Continue Watching)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[role=complementary] span:has-text(Sponsored)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###watch_feed a[aria-label]:has-text(Sponsored)
 !
 ! Promotion call-to-actions
 !
-facebook.com##[aria-label="Boost Post"]
-facebook.com##[aria-label="Boost Again"]
-facebook.com##[aria-label="Boost Unavailable"]
-facebook.com##[aria-label="Boost unavailable"]
-facebook.com##[aria-label="Promote"]
-facebook.com##[aria-label="Promote Website"]
-facebook.com##[aria-label="Boost a Post"]
-facebook.com##[aria-label="Boost a post"]
-facebook.com##div[data-visualcompletion=ignore-dynamic]:has-text(Boost Post)
-facebook.com##div[style^="border-radius: max(0px, min(8px,"] > div > div > div > div:has-text(Reach more people )
-facebook.com##div[style^="border-radius: max(0px, min(8px,"] > div > div > div > div:has-text(Reach More People )
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##[aria-label="Boost Post"]
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##[aria-label="Boost Again"]
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##[aria-label="Boost Unavailable"]
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##[aria-label="Boost unavailable"]
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##[aria-label="Promote"]
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##[aria-label="Promote Website"]
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##[aria-label="Boost a Post"]
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##[aria-label="Boost a post"]
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[data-visualcompletion=ignore-dynamic]:has-text(Boost Post)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[style^="border-radius: max(0px, min(8px,"] > div > div > div > div:has-text(Reach more people )
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[style^="border-radius: max(0px, min(8px,"] > div > div > div > div:has-text(Reach More People )
 !
 ! Facebook page admin annoyances
 !
-facebook.com##div[style^="border-radius: max(0px, min(8px,"]:has-text(How would you like to grow your business?):xpath(../..)
-facebook.com##div[style^="border-radius: max(0px, min(8px,"]:has-text(Free Facebook Business Tools):xpath(../..)
-facebook.com##div[style^="border-radius: max(0px, min(8px,"]:has-text(Free Facebook Business tools):xpath(../..)
-facebook.com##div[style^="border-radius: max(0px, min(8px,"]:has-text(Free Meta Business Tools):xpath(../..)
-facebook.com##div[style^="border-radius: max(0px, min(8px,"]:has-text(A better way to manage your Page):xpath(../../..)
-facebook.com##div[style^="border-radius: max(0px, min(8px,"]:has-text(Businesses like yours are selling their products using Facebook Shops.):xpath(../..)
-facebook.com##div[style^="border-radius: max(0px, min(8px,"]:has-text(View Tips):xpath(../..)
-facebook.com##div[style^="border-radius: max(0px, min(8px,"]:has-text(Set Your Page up for Success):xpath(../..)
-facebook.com##div[style^="border-radius: max(0px, min(8px,"]:has-text(Page tips):xpath(../..)
-facebook.com##a[href$=\/business_app_store\/]:xpath(..)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[style^="border-radius: max(0px, min(8px,"]:has-text(How would you like to grow your business?):xpath(../..)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[style^="border-radius: max(0px, min(8px,"]:has-text(Free Facebook Business Tools):xpath(../..)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[style^="border-radius: max(0px, min(8px,"]:has-text(Free Facebook Business tools):xpath(../..)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[style^="border-radius: max(0px, min(8px,"]:has-text(Free Meta Business Tools):xpath(../..)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[style^="border-radius: max(0px, min(8px,"]:has-text(A better way to manage your Page):xpath(../../..)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[style^="border-radius: max(0px, min(8px,"]:has-text(Businesses like yours are selling their products using Facebook Shops.):xpath(../..)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[style^="border-radius: max(0px, min(8px,"]:has-text(View Tips):xpath(../..)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[style^="border-radius: max(0px, min(8px,"]:has-text(Set Your Page up for Success):xpath(../..)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[style^="border-radius: max(0px, min(8px,"]:has-text(Page tips):xpath(../..)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href$=\/business_app_store\/]:xpath(..)
 !
 ! Links to advertising center
 !
-facebook.com##a[href^=\/ad_center\/]
-facebook.com##a[href$=\/ad_center\/\?refSource\=pages_manager_bar]:xpath(..)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href^=\/ad_center\/]
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href$=\/ad_center\/\?refSource\=pages_manager_bar]:xpath(..)
 !
 ! Other annoyances
 !
-facebook.com###ssrb_stories_start + div
-facebook.com##div[aria-label*="video chats"]:upward(9)
-facebook.com##a[href*=\/coronavirus_info\/\?page_source\=bookmark]:xpath(../..)
-facebook.com##a[href*=\/climatescienceinfo\/\?entry_point\=]:xpath(../..)
-facebook.com##span#ssrb_composer_start + div:has-text(Take a COVID-19 Survey)
-facebook.com##span#ssrb_composer_start + div:has-text(take a COVID-19 survey)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###ssrb_stories_start + div
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-label*="video chats"]:upward(9)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href*=\/coronavirus_info\/\?page_source\=bookmark]:xpath(../..)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href*=\/climatescienceinfo\/\?entry_point\=]:xpath(../..)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##span#ssrb_composer_start + div:has-text(Take a COVID-19 Survey)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##span#ssrb_composer_start + div:has-text(take a COVID-19 survey)
 !
 ! Unpaid promotions
 !
-facebook.com##div[aria-posinset] div[data-ad-preview=message]:has(a[href*="threadless.com"]):xpath(../../../..)
-facebook.com##div[aria-posinset] div[data-ad-preview=message]:has(a[href*="palmtreat.design"]):xpath(../../../..)
-facebook.com##div[aria-posinset] div[data-ad-preview=message]:has(a[href*="redbubble.com"]):xpath(../../../..)
-facebook.com##div[aria-posinset] div[data-ad-preview=message]:has(a[href*="teespring.com"]):xpath(../../../..)
-facebook.com##div[aria-posinset] div[data-ad-preview=message]:has(a[href*="dreamofmemes.com"]):xpath(../../../..)
-facebook.com##div[aria-posinset] div[data-ad-preview=message]:has(a[href*="myshopify.com"]):xpath(../../../..)
-facebook.com##div[aria-posinset] div[data-ad-preview=message]:has(a[href*="is.gd"]):xpath(../../../..)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset] div[data-ad-preview=message]:has(a[href*="threadless.com"]):xpath(../../../..)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset] div[data-ad-preview=message]:has(a[href*="palmtreat.design"]):xpath(../../../..)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset] div[data-ad-preview=message]:has(a[href*="redbubble.com"]):xpath(../../../..)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset] div[data-ad-preview=message]:has(a[href*="teespring.com"]):xpath(../../../..)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset] div[data-ad-preview=message]:has(a[href*="dreamofmemes.com"]):xpath(../../../..)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset] div[data-ad-preview=message]:has(a[href*="myshopify.com"]):xpath(../../../..)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset] div[data-ad-preview=message]:has(a[href*="is.gd"]):xpath(../../../..)
 !
 ! FB Purity
 !
-facebook.com###fbpnewslink
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###fbpnewslink
 !
 ! m.facebook.com
 !
