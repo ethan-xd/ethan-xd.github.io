@@ -19,9 +19,11 @@ facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div
 !facebook.com##:xpath("//div[@aria-posinset and .//*[name()='svg' and substring-after(./*[name()='use']/attribute::*[starts-with(., '#')], '#')=//*[name()='text' and .='Sponsored']/@id]]"):upward(6):remove()
 !#if env_chromium
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##:xpath("//div[@aria-posinset and .//*[name()='use']/parent::*[name()='svg' and (number(substring-before(substring-after(@style, 'margin-right:'), 'px')) + number(substring-before(substring-after(@style, 'width:'), 'px'))) > 56.885 and (number(substring-before(substring-after(@style, 'margin-right:'), 'px')) + number(substring-before(substring-after(@style, 'width:'), 'px'))) < 56.895]]"):upward(6)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset]:has(svg[style$="width: 56.8906px;"]:has(use)):upward(6)
 !#endif
 !#if env_firefox
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##:xpath("//div[@aria-posinset and .//*[name()='use']/parent::*[name()='svg' and (number(substring-before(substring-after(@style, 'margin-right:'), 'px')) + number(substring-before(substring-after(@style, 'width:'), 'px'))) > 58.9 and (number(substring-before(substring-after(@style, 'margin-right:'), 'px')) + number(substring-before(substring-after(@style, 'width:'), 'px'))) < 59.1]]"):upward(6)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset]:has(svg[style$="width: 59px;"]:has(use)):upward(6)
 !#endif
 !
 ! Other ads and suggestions
