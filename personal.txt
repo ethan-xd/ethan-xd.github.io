@@ -54,10 +54,9 @@ dextools.io##.ng-star-inserted.d-none.d-lg-block.d-lg-none.d-md-none.d-sm-none.t
 dextools.io##.ng-star-inserted.ng-tns-c113-2.d-md-block.d-none.mb-4 > .ng-tns-c113-2.box-home:xpath(..)
 dextools.io##.ng-star-inserted.isFaraland.ventures-project.mini-banner:xpath(..)
 
-wikipedia.org###frb-inline
-wikipedia.org###frb-nag
-
-m.wikipedia.org###siteNotice
+wikipedia.org,m.wikipedia.org###frb-inline
+wikipedia.org,m.wikipedia.org###frb-nag
+wikipedia.org,m.wikipedia.org###siteNotice
 
 archive.org###donate_banner
 
