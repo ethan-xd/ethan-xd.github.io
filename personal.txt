@@ -17,9 +17,9 @@ youtube.com##.ytd-guide-entry-renderer.style-scope:has-text(Keyword Inspector):x
 youtube.com##header + div:has-text(Unlock the most advanced growth tools for creators)
 youtube.com##button.comment-templates-dropdown-button
 youtube.com##.vidiq-comment-filter
-youtube.com##ytd-grid-video-renderer:has-text(#shorts)
-youtube.com##ytd-grid-video-renderer:has-text(#Shorts)
-youtube.com##ytd-grid-video-renderer:has-text(#SHORTS)
+!youtube.com##ytd-grid-video-renderer:has-text(#shorts)
+!youtube.com##ytd-grid-video-renderer:has-text(#Shorts)
+!youtube.com##ytd-grid-video-renderer:has-text(#SHORTS)
 youtube.com###voice-search-button
 youtube.com##ytd-compact-radio-renderer
 youtube.com##ytd-download-button-renderer
@@ -28,7 +28,7 @@ youtube.com##ytd-rich-section-renderer:has(#title:has-text(Shorts))
 youtube.com##ytd-rich-section-renderer:has(#title:has-text(Breaking news))
 
 steamcommunity.com###floatMoney
-steamcommunity.com##.tradePanel:has-text(SIH's Sponsors)
+steamcommunity.com##.tradePanel:has-text(SIH\'s Sponsors)
 
 duolingo.com##button:has-text(Try Plus)
 
@@ -44,9 +44,10 @@ twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Expand your time
 twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Expand your timeline with Topics) + div
 twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Expand your timeline with Topics) + div + div
 twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Expand your timeline with Topics) + div + div + div
-twitter.com##article:has(a[href^=\/i\/topics\/]):xpath(../../..)
-twitter.com##article:has(a[href^=\/i\/spaces\/]):xpath(../../..)
+twitter.com##article:has(a[href^="/i/topics/"]):xpath(../../..)
+twitter.com##article:has(a[href^="/i/spaces/"]):xpath(../../..)
 twitter.com##[href$=twitter_blue_sign_up]
+twitter.com##[data-testid=cellInnerDiv]:has-text(Is this Tweet relevant)
 !twitter.com##[data-testid=UserCell]:has(svg[aria-label="Verified account"])
 
 dextools.io##.ng-star-inserted.d-none.d-lg-block.d-lg-none.d-md-none.d-sm-none.text-center.banner
@@ -56,14 +57,16 @@ dextools.io##.ng-star-inserted.isFaraland.ventures-project.mini-banner:xpath(..)
 wikipedia.org###frb-inline
 wikipedia.org###frb-nag
 
+m.wikipedia.org###siteNotice
+
 archive.org###donate_banner
 
 twitch.tv##.front-page-carousel
 twitch.tv##.shelf-card__impression-wrapper:has(p[data-a-target=PROMOTION]):xpath(..)
 twitch.tv##.shelf-card__impression-wrapper:has(p[data-a-target=COMMUNITY_BOOST]):xpath(..)
-twitch.tv##.shelf-card__impression-wrapper:has-text(Promoted by the streamer's community):xpath(..)
+twitch.tv##.shelf-card__impression-wrapper:has-text(Promoted by the streamer\'s community):xpath(..)
 twitch.tv##.find-me:has-text(All aboard the Hype Train!)
-twitch.tv##+js(twitch-videoad)
+#twitch.tv##+js(twitch-videoad)
 
 typeracer.com##.DialogBox:has-text(disqualified)
 
