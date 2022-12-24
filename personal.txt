@@ -48,6 +48,7 @@ twitter.com##article:has(a[href^="/i/topics/"]):xpath(../../..)
 twitter.com##article:has(a[href^="/i/spaces/"]):xpath(../../..)
 twitter.com##[href$=twitter_blue_sign_up]
 twitter.com##[data-testid=cellInnerDiv]:has-text(Is this Tweet relevant)
+twitter.com##a[aria-label$="View Tweet analytics"]:upward(1)
 !twitter.com##[data-testid=UserCell]:has(svg[aria-label="Verified account"])
 
 dextools.io##.ng-star-inserted.d-none.d-lg-block.d-lg-none.d-md-none.d-sm-none.text-center.banner
@@ -96,3 +97,9 @@ quora.com##.qu-zIndex--blocking_wall
 puzzlebaron.com###undernav
 
 csgo.exchange##a[href*=ads]:upward(ul)
+
+||chat.openai.com/backend-api/moderations
+
+kick.com##.fixed.bottom-0:has-text(Kick uses cookies)
+
+patreon.com###banner-title:has-text(Your Privacy):upward(4)
