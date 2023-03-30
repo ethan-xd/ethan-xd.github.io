@@ -23,6 +23,7 @@ reddit.com,new.reddit.com##a[aria-label=Advertise]
 reddit.com,new.reddit.com##button:has-text(Shop Avatars)
 reddit.com,new.reddit.com##a[href="/now"]
 reddit.com,new.reddit.com##a[href="/now"] + div:has-text(Find live chats)
+reddit.com,new.reddit.com##h3:has-text(What do you want to see more of?):upward(4)
 !
 ! New Reddit (mobile)
 !
