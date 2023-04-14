@@ -45,6 +45,7 @@ facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###watch_feed a[aria-label]:has-text(Sponsored)
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href^="/ads/"]:upward(1):matches-path(marketplace)
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href^="/ads/"]:upward(4) + div > div:first-child:matches-path(marketplace)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##:xpath(//div[./div/div[@role='article' and .//a[@href='#' or starts-with(@href, '/ads/about')]]])
 !
 ! Promotion call-to-actions
 !
