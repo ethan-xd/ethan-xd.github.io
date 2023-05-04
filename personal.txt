@@ -26,9 +26,11 @@ youtube.com##ytd-download-button-renderer
 youtube.com###endpoint:has-text(Shorts)
 youtube.com##ytd-rich-section-renderer:has(#title:has-text(Shorts))
 youtube.com##ytd-rich-section-renderer:has(#title:has-text(Breaking news))
+youtube.com##ytd-shelf-renderer:matches-path(/results)
 
 steamcommunity.com###floatMoney
 steamcommunity.com##.tradePanel:has-text(SIH\'s Sponsors)
+steamcommunity.com##.sih_skins_giveaway
 
 duolingo.com##button:has-text(Try Plus)
 
@@ -44,9 +46,12 @@ twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Expand your time
 twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Expand your timeline with Topics) + div
 twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Expand your timeline with Topics) + div + div
 twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Expand your timeline with Topics) + div + div + div
-twitter.com##article:has(a[href^="/i/topics/"]):xpath(../../..)
+!twitter.com##article:has(a[href^="/i/topics/"]):xpath(../../..)
 twitter.com##article:has(a[href^="/i/spaces/"]):xpath(../../..)
+twitter.com##article:has(div[data-testid=socialContext]:has-text(You might like)):xpath(../../..)
+twitter.com##article:has(div[data-testid=socialContext]:has-text(For you)):xpath(../../..)
 twitter.com##[href$=twitter_blue_sign_up]
+twitter.com##[href$=verified-orgs-signup]
 twitter.com##[data-testid=cellInnerDiv]:has-text(Is this Tweet relevant)
 twitter.com##a[aria-label$="View Tweet analytics"]:upward(1)
 !twitter.com##[data-testid=UserCell]:has(svg[aria-label="Verified account"])
@@ -98,8 +103,14 @@ puzzlebaron.com###undernav
 
 csgo.exchange##a[href*=ads]:upward(ul)
 
+csgobackpack.net##img[src*="backpack-1.png"]:upward(2)
+
 ||chat.openai.com/backend-api/moderations
 
 kick.com##.fixed.bottom-0:has-text(Kick uses cookies)
 
 patreon.com###banner-title:has-text(Your Privacy):upward(4)
+
+fmovies.wtf,fmovies.to,fmovies.taxi,fmovies.pub,fmovies.cafe,fmovies.world,fmovies.coffee##a[href*=mangafire]
+
+mail.google.com##[aria-label="Inbox tip"]:has-text(We protect your privacy)
