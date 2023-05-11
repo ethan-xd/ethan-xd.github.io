@@ -6,6 +6,7 @@
 ||ogs.google.com/u/*/widget/callout
 ||ogs.google.com/widget/callout
 google.com##[class$=__middle-slot-promo]
+google.com,google.co.nz##[data-attrid="kc:/local:promotions"]
 
 youtube.com##span.vidiq-video-page-menu
 youtube.com##.video-page-comments-filter
