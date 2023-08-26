@@ -28,17 +28,23 @@ youtube.com###endpoint:has-text(Shorts)
 youtube.com##ytd-rich-section-renderer:has(#title:has-text(Shorts))
 youtube.com##ytd-rich-section-renderer:has(#title:has-text(Breaking news))
 youtube.com##ytd-shelf-renderer:matches-path(/results)
+youtube.com##.ytd-watch-next-secondary-results-renderer ytd-reel-shelf-renderer
 
 steamcommunity.com###floatMoney
-steamcommunity.com##.tradePanel:has-text(SIH\'s Sponsors)
+steamcommunity.com##.tradePanel:has-text("SIH's Sponsors")
 steamcommunity.com##.sih_skins_giveaway
+steamcommunity.com##a[href="https://discord.gg/a3Hn8nZsBg"]
+steamcommunity.com##.left-panel_sponsor
+steamcommunity.com##.sih-subscribe-donat
 
 duolingo.com##button:has-text(Try Plus)
 
 rabbit.namejeff.xyz##.vue-notification-group
 
+||v.redd.it/*/*.vtt
+
 twitter.com##div[aria-label="Timeline: Trending now"]:xpath(../../..)
-twitter.com##div[aria-label="Timeline: "]:xpath(../../..)
+!twitter.com##div[aria-label="Timeline: "]:xpath(../../..)
 twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Topics to follow)
 twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Topics to follow) + div
 twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Topics to follow) + div + div
@@ -51,11 +57,17 @@ twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Expand your time
 twitter.com##article:has(a[href^="/i/spaces/"]):xpath(../../..)
 twitter.com##article:has(div[data-testid=socialContext]:has-text(You might like)):xpath(../../..)
 twitter.com##article:has(div[data-testid=socialContext]:has-text(For you)):xpath(../../..)
-twitter.com##[href$=twitter_blue_sign_up]
+twitter.com##[href$=verified-choose]
 twitter.com##[href$=verified-orgs-signup]
+twitter.com##aside[aria-label="Get Verified"]:upward(1)
 twitter.com##[data-testid=cellInnerDiv]:has-text(Is this Tweet relevant)
-twitter.com##a[aria-label$="View Tweet analytics"]:upward(1)
+twitter.com##[data-testid=tweet] a[href$="/analytics"]:upward(1)
 !twitter.com##[data-testid=UserCell]:has(svg[aria-label="Verified account"])
+twitter.com##[data-testid=cellInnerDiv]:has-text(This Tweet includes a word you muted) + [data-testid]:has-text(This Tweet is from an account you blocked):xpath(preceding-sibling::div[1])
+twitter.com##[data-testid=cellInnerDiv]:has-text(This Tweet is from an account you blocked)
+twitter.com##[data-testid=cellInnerDiv]:has-text(This Tweet is from an account you blocked) + [data-testid]:has-text(Show replies)
+twitter.com##aside[aria-label="Subscribe to Premium"]:upward(1)
+twitter.com##[data-testid=cellInnerDiv]:has(a:has-text(Subscribe today))
 
 dextools.io##.ng-star-inserted.d-none.d-lg-block.d-lg-none.d-md-none.d-sm-none.text-center.banner
 dextools.io##.ng-star-inserted.ng-tns-c113-2.d-md-block.d-none.mb-4 > .ng-tns-c113-2.box-home:xpath(..)
@@ -72,7 +84,7 @@ twitch.tv##.shelf-card__impression-wrapper:has(p[data-a-target=PROMOTION]):xpath
 twitch.tv##.shelf-card__impression-wrapper:has(p[data-a-target=COMMUNITY_BOOST]):xpath(..)
 twitch.tv##.shelf-card__impression-wrapper:has-text(Promoted by the streamer\'s community):xpath(..)
 twitch.tv##.find-me:has-text(All aboard the Hype Train!)
-#twitch.tv##+js(twitch-videoad)
+!twitch.tv##+js(twitch-videoad)
 
 typeracer.com##.DialogBox:has-text(disqualified)
 
@@ -113,5 +125,9 @@ kick.com##.fixed.bottom-0:has-text(Kick uses cookies)
 patreon.com###banner-title:has-text(Your Privacy):upward(4)
 
 fmovies.wtf,fmovies.to,fmovies.taxi,fmovies.pub,fmovies.cafe,fmovies.world,fmovies.coffee##a[href*=mangafire]
+fmovies.wtf,fmovies.to,fmovies.taxi,fmovies.pub,fmovies.cafe,fmovies.world,fmovies.coffee##+js(set, DisDevTool, undefined)
+fmovies.wtf,fmovies.to,fmovies.taxi,fmovies.pub,fmovies.cafe,fmovies.world,fmovies.coffee##+js(set, console.warn, undefined, 3)
 
 mail.google.com##[aria-label="Inbox tip"]:has-text(We protect your privacy)
+
+3d.cs.money##.titleContainer:has-text(Stickers) + div + .result:style(max-height: calc(100vh - 215px) !important)
