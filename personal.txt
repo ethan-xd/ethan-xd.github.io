@@ -12,7 +12,7 @@ youtube.com##span.vidiq-video-page-menu
 youtube.com##.video-page-comments-filter
 youtube.com##span:nth-of-type(2) > .vidiq-button.new-layout.playlist.playlist-top-keywords-button
 youtube.com##.vidiq-button.new-layout.playlist.playlist-top-keywords-button
-youtube.com###clarify-box:has-text(COVID-19)
+youtube.com###clarify-box
 youtube.com##.ytd-guide-entry-renderer.style-scope:has-text(Daily Ideas):xpath(..)
 youtube.com##.ytd-guide-entry-renderer.style-scope:has-text(Keyword Inspector):xpath(..)
 youtube.com##header + div:has-text(Unlock the most advanced growth tools for creators)
@@ -43,31 +43,33 @@ rabbit.namejeff.xyz##.vue-notification-group
 
 ||v.redd.it/*/*.vtt
 
-twitter.com##div[aria-label="Timeline: Trending now"]:xpath(../../..)
-!twitter.com##div[aria-label="Timeline: "]:xpath(../../..)
-twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Topics to follow)
-twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Topics to follow) + div
-twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Topics to follow) + div + div
-twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Topics to follow) + div + div + div
-twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Expand your timeline with Topics)
-twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Expand your timeline with Topics) + div
-twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Expand your timeline with Topics) + div + div
-twitter.com##div[aria-label^="Timeline: "] > div > div:has-text(Expand your timeline with Topics) + div + div + div
-!twitter.com##article:has(a[href^="/i/topics/"]):xpath(../../..)
-twitter.com##article:has(a[href^="/i/spaces/"]):xpath(../../..)
-twitter.com##article:has(div[data-testid=socialContext]:has-text(You might like)):xpath(../../..)
-twitter.com##article:has(div[data-testid=socialContext]:has-text(For you)):xpath(../../..)
-twitter.com##[href$=verified-choose]
-twitter.com##[href$=verified-orgs-signup]
-twitter.com##aside[aria-label="Get Verified"]:upward(1)
-twitter.com##[data-testid=cellInnerDiv]:has-text(Is this Tweet relevant)
-twitter.com##[data-testid=tweet] a[href$="/analytics"]:upward(1)
-!twitter.com##[data-testid=UserCell]:has(svg[aria-label="Verified account"])
-twitter.com##[data-testid=cellInnerDiv]:has-text(This Tweet includes a word you muted) + [data-testid]:has-text(This Tweet is from an account you blocked):xpath(preceding-sibling::div[1])
-twitter.com##[data-testid=cellInnerDiv]:has-text(This Tweet is from an account you blocked)
-twitter.com##[data-testid=cellInnerDiv]:has-text(This Tweet is from an account you blocked) + [data-testid]:has-text(Show replies)
-twitter.com##aside[aria-label="Subscribe to Premium"]:upward(1)
-twitter.com##[data-testid=cellInnerDiv]:has(a:has-text(Subscribe today))
+twitter.com,x.com##div[aria-label="Timeline: Trending now"]:xpath(../../..)
+!twitter.com,x.com##div[aria-label="Timeline: "]:xpath(../../..)
+twitter.com,x.com,x.com##div[aria-label^="Timeline: "] > div > div:has-text(Topics to follow)
+twitter.com,x.com##div[aria-label^="Timeline: "] > div > div:has-text(Topics to follow) + div
+twitter.com,x.com##div[aria-label^="Timeline: "] > div > div:has-text(Topics to follow) + div + div
+twitter.com,x.com##div[aria-label^="Timeline: "] > div > div:has-text(Topics to follow) + div + div + div
+twitter.com,x.com##div[aria-label^="Timeline: "] > div > div:has-text(Expand your timeline with Topics)
+twitter.com,x.com##div[aria-label^="Timeline: "] > div > div:has-text(Expand your timeline with Topics) + div
+twitter.com,x.com##div[aria-label^="Timeline: "] > div > div:has-text(Expand your timeline with Topics) + div + div
+twitter.com,x.com##div[aria-label^="Timeline: "] > div > div:has-text(Expand your timeline with Topics) + div + div + div
+!twitter.com,x.com##article:has(a[href^="/i/topics/"]):xpath(../../..)
+twitter.com,x.com##article:has(a[href^="/i/spaces/"]):xpath(../../..)
+twitter.com,x.com##article:has(div[data-testid=socialContext]:has-text(You might like)):xpath(../../..)
+twitter.com,x.com##article:has(div[data-testid=socialContext]:has-text(For you)):xpath(../../..)
+twitter.com,x.com##[href$=verified-choose]
+twitter.com,x.com##[href$=verified-orgs-signup]
+twitter.com,x.com##aside[aria-label="Get Verified"]:upward(1)
+twitter.com,x.com##[data-testid=cellInnerDiv]:has-text(Is this Tweet relevant)
+twitter.com,x.com##[data-testid=tweet] a[href$="/analytics"]:upward(1)
+!twitter.com,x.com##[data-testid=UserCell]:has(svg[aria-label="Verified account"])
+twitter.com,x.com##[data-testid=cellInnerDiv]:has-text(This Tweet includes a word you muted) + [data-testid]:has-text(This Tweet is from an account you blocked):xpath(preceding-sibling::div[1])
+twitter.com,x.com##[data-testid=cellInnerDiv]:has-text(This Tweet is from an account you blocked)
+twitter.com,x.com##[data-testid=cellInnerDiv]:has-text(This Tweet is from an account you blocked) + [data-testid]:has-text(Show replies)
+twitter.com,x.com##aside[aria-label="Subscribe to Premium"]:upward(1)
+twitter.com,x.com##[data-testid=cellInnerDiv]:has(a:has-text(Subscribe today))
+twitter.com,x.com##[data-testid=tweet]:has(a[href*=cashtag_click]):upward(2)
+twitter.com,x.com##[data-testid=tweet]:has(img[src*=emoji]) [lang=qme]:has-text(/$^/):upward(9)
 
 dextools.io##.ng-star-inserted.d-none.d-lg-block.d-lg-none.d-md-none.d-sm-none.text-center.banner
 dextools.io##.ng-star-inserted.ng-tns-c113-2.d-md-block.d-none.mb-4 > .ng-tns-c113-2.box-home:xpath(..)
@@ -88,8 +90,7 @@ twitch.tv##.find-me:has-text(All aboard the Hype Train!)
 
 typeracer.com##.DialogBox:has-text(disqualified)
 
-w2g.tv##.w2g-until-mobile:has-text(Upgrade)
-w2g.tv##.w2g-doit
+w2g.tv##a[href="https://w2g.tv/upgrade"]
 
 halotracker.com##.bordered-ad
 halotracker.com##.ad-container
@@ -101,7 +102,7 @@ vk.com##.PostHeaderActions__action:has-text(Promote)
 nzherald.co.nz##button:has-text(Subscribe now)
 nzherald.co.nz###premium-toaster
 nzherald.co.nz##.email-boost
-nzherald.co.nz##article span[data-test-ui=story-card__label]:has-text(Premium):xpath(..)
+!nzherald.co.nz##article span[data-test-ui=story-card__label]:has-text(Premium):xpath(..)
 
 socialblade.com##.socialblade-heartbeat:xpath(../..)
 
@@ -111,6 +112,7 @@ quora.com###root>.q-box>.q-box>.q-box.qu-overflow--hidden:style(filter: blur(0px
 quora.com###root>.q-box>.q-box>.q-box.qu-overflow--hidden > .q-box:style(height: 0px !important)
 quora.com###root>.q-box>.q-box>.q-box.qu-overflow--hidden > .q-box + div:style(position: sticky !important)
 quora.com##.qu-zIndex--blocking_wall
+quora.com##.q-box[class*=dom_annotate_question_answer_item_]:has(svg path[d^="M2 12.889h2.444a6.668"])
 
 puzzlebaron.com###undernav
 
@@ -131,3 +133,5 @@ fmovies.wtf,fmovies.to,fmovies.taxi,fmovies.pub,fmovies.cafe,fmovies.world,fmovi
 mail.google.com##[aria-label="Inbox tip"]:has-text(We protect your privacy)
 
 3d.cs.money##.titleContainer:has-text(Stickers) + div + .result:style(max-height: calc(100vh - 215px) !important)
+
+||csroi.com/assets/skinport-banner.png$image
