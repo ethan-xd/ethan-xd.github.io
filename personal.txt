@@ -126,9 +126,9 @@ kick.com##.fixed.bottom-0:has-text(Kick uses cookies)
 
 patreon.com###banner-title:has-text(Your Privacy):upward(4)
 
-fmovies.wtf,fmovies.to,fmovies.taxi,fmovies.pub,fmovies.cafe,fmovies.world,fmovies.coffee##a[href*=mangafire]
-fmovies.wtf,fmovies.to,fmovies.taxi,fmovies.pub,fmovies.cafe,fmovies.world,fmovies.coffee##+js(set, DisDevTool, undefined)
-fmovies.wtf,fmovies.to,fmovies.taxi,fmovies.pub,fmovies.cafe,fmovies.world,fmovies.coffee##+js(set, console.warn, undefined, 3)
+fmovies.*,fmoviesz.*##a[href*=mangafire]
+fmovies.*,fmoviesz.*##+js(set, DisDevTool, undefined)
+fmovies.*,fmoviesz.*##+js(set, console.warn, undefined, 3)
 
 mail.google.com##[aria-label="Inbox tip"]:has-text(We protect your privacy)
 
