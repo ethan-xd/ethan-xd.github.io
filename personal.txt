@@ -29,6 +29,7 @@ youtube.com##ytd-rich-section-renderer:has(#title:has-text(Shorts))
 youtube.com##ytd-rich-section-renderer:has(#title:has-text(Breaking news))
 youtube.com##ytd-shelf-renderer:matches-path(/results)
 youtube.com##.ytd-watch-next-secondary-results-renderer ytd-reel-shelf-renderer
+youtube.com##.ytp-suggested-action:has-text(View products)
 
 steamcommunity.com###floatMoney
 steamcommunity.com##.tradePanel:has-text("SIH's Sponsors")
@@ -63,13 +64,15 @@ twitter.com,x.com##aside[aria-label="Get Verified"]:upward(1)
 twitter.com,x.com##[data-testid=cellInnerDiv]:has-text(Is this Tweet relevant)
 twitter.com,x.com##[data-testid=tweet] a[href$="/analytics"]:upward(1)
 !twitter.com,x.com##[data-testid=UserCell]:has(svg[aria-label="Verified account"])
-twitter.com,x.com##[data-testid=cellInnerDiv]:has-text(This Tweet includes a word you muted) + [data-testid]:has-text(This Tweet is from an account you blocked):xpath(preceding-sibling::div[1])
-twitter.com,x.com##[data-testid=cellInnerDiv]:has-text(This Tweet is from an account you blocked)
-twitter.com,x.com##[data-testid=cellInnerDiv]:has-text(This Tweet is from an account you blocked) + [data-testid]:has-text(Show replies)
+twitter.com,x.com##[data-testid=cellInnerDiv]:has-text(This Post includes a word you muted) + [data-testid]:has-text(This Post is from an account you blocked):xpath(preceding-sibling::div[1])
+twitter.com,x.com##[data-testid=cellInnerDiv]:has-text(This Post is from an account you blocked)
+twitter.com,x.com##[data-testid=cellInnerDiv]:has-text(This Post is from an account you blocked) + [data-testid]:has-text(Show replies)
 twitter.com,x.com##aside[aria-label="Subscribe to Premium"]:upward(1)
 twitter.com,x.com##[data-testid=cellInnerDiv]:has(a:has-text(Subscribe today))
 twitter.com,x.com##[data-testid=tweet]:has(a[href*=cashtag_click]):upward(2)
-twitter.com,x.com##[data-testid=tweet]:has(img[src*=emoji]) [lang=qme]:has-text(/$^/):upward(9)
+twitter.com,x.com##[data-testid=tweet]:has(img[src*=emoji]):not(:has(a[href*="/photo/"])) [lang=qme]:has-text(/$^/):upward(6)
+twitter.com,x.com##[data-testid=cellInnerDiv]:has([data-testid=placementTracking]):has([dir=ltr]:has-text(/^Ad$/))
+twitter.com,x.com##[data-testid=cellInnerDiv]:has(a[href="/i/premium_sign_up?referring_page=timeline_prompt"])
 
 dextools.io##.ng-star-inserted.d-none.d-lg-block.d-lg-none.d-md-none.d-sm-none.text-center.banner
 dextools.io##.ng-star-inserted.ng-tns-c113-2.d-md-block.d-none.mb-4 > .ng-tns-c113-2.box-home:xpath(..)
@@ -126,12 +129,16 @@ kick.com##.fixed.bottom-0:has-text(Kick uses cookies)
 
 patreon.com###banner-title:has-text(Your Privacy):upward(4)
 
-fmovies.*,fmoviesz.*##a[href*=mangafire]
-fmovies.*,fmoviesz.*##+js(set, DisDevTool, undefined)
-fmovies.*,fmoviesz.*##+js(set, console.warn, undefined, 3)
+fmoviesz.to##a[href*=mangafire]
+fmoviesz.to##+js(set, DisDevTool, undefined)
+fmoviesz.to##+js(set, console.warn, undefined, 3)
+fmoviesz.to#@#+js(no-setTimeout-if, null)
+fmoviesz.to##+js(nostif, /devToolsDetected/)
 
 mail.google.com##[aria-label="Inbox tip"]:has-text(We protect your privacy)
 
 3d.cs.money##.titleContainer:has-text(Stickers) + div + .result:style(max-height: calc(100vh - 215px) !important)
 
 ||csroi.com/assets/skinport-banner.png$image
+
+jsonviewer.stack.hu###footer
