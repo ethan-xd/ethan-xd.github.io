@@ -25,7 +25,6 @@ facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##:xp
 !#endif
 !#if env_firefox
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##:xpath("//div[@aria-posinset and .//*[name()='use']/parent::*[name()='svg' and (number(substring-before(substring-after(@style, 'margin-right:'), 'px')) + number(substring-before(substring-after(@style, 'width:'), 'px'))) > 58.9 and (number(substring-before(substring-after(@style, 'margin-right:'), 'px')) + number(substring-before(substring-after(@style, 'width:'), 'px'))) < 59.1]]"):upward(6)
-facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset]:has(svg[style$="width: 59px;"]:has(use)):upward(5)
 !#endif
 !
 ! Other ads and suggestions
