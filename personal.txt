@@ -5,8 +5,9 @@
 
 ||ogs.google.com/u/*/widget/callout
 ||ogs.google.com/widget/callout
-google.com##[class$=__middle-slot-promo]
+google.com,google.co.nz##[class$=__middle-slot-promo]
 google.com,google.co.nz##[data-attrid="kc:/local:promotions"]
+google.com,google.co.nz##h1:has-text(AI overview) + div
 
 youtube.com##span.vidiq-video-page-menu
 youtube.com##.video-page-comments-filter
@@ -30,6 +31,7 @@ youtube.com##ytd-rich-section-renderer:has(#title:has-text(Breaking news))
 youtube.com##ytd-shelf-renderer:matches-path(/results)
 youtube.com##.ytd-watch-next-secondary-results-renderer ytd-reel-shelf-renderer
 youtube.com##.ytp-suggested-action:has-text(View products)
+youtube.com##.ytp-featured-product
 
 steamcommunity.com###floatMoney
 steamcommunity.com##.tradePanel:has-text("SIH's Sponsors")
@@ -44,9 +46,9 @@ rabbit.namejeff.xyz##.vue-notification-group
 
 ||v.redd.it/*/*.vtt
 
-twitter.com,x.com##div[aria-label="Timeline: Trending now"]:xpath(../../..)
+!twitter.com,x.com##div[aria-label="Timeline: Trending now"]:xpath(../../..)
 !twitter.com,x.com##div[aria-label="Timeline: "]:xpath(../../..)
-twitter.com,x.com,x.com##div[aria-label^="Timeline: "] > div > div:has-text(Topics to follow)
+twitter.com,x.com##div[aria-label^="Timeline: "] > div > div:has-text(Topics to follow)
 twitter.com,x.com##div[aria-label^="Timeline: "] > div > div:has-text(Topics to follow) + div
 twitter.com,x.com##div[aria-label^="Timeline: "] > div > div:has-text(Topics to follow) + div + div
 twitter.com,x.com##div[aria-label^="Timeline: "] > div > div:has-text(Topics to follow) + div + div + div
@@ -55,7 +57,7 @@ twitter.com,x.com##div[aria-label^="Timeline: "] > div > div:has-text(Expand you
 twitter.com,x.com##div[aria-label^="Timeline: "] > div > div:has-text(Expand your timeline with Topics) + div + div
 twitter.com,x.com##div[aria-label^="Timeline: "] > div > div:has-text(Expand your timeline with Topics) + div + div + div
 !twitter.com,x.com##article:has(a[href^="/i/topics/"]):xpath(../../..)
-twitter.com,x.com##article:has(a[href^="/i/spaces/"]):xpath(../../..)
+!twitter.com,x.com##article:has(a[href^="/i/spaces/"]):xpath(../../..)
 twitter.com,x.com##article:has(div[data-testid=socialContext]:has-text(You might like)):xpath(../../..)
 twitter.com,x.com##article:has(div[data-testid=socialContext]:has-text(For you)):xpath(../../..)
 twitter.com,x.com##[href$=verified-choose]
@@ -72,7 +74,11 @@ twitter.com,x.com##[data-testid=cellInnerDiv]:has(a:has-text(Subscribe today))
 twitter.com,x.com##[data-testid=tweet]:has(a[href*=cashtag_click]):upward(2)
 twitter.com,x.com##[data-testid=tweet]:has(img[src*=emoji]):not(:has(a[href*="/photo/"])) [lang=qme]:has-text(/$^/):upward(6)
 twitter.com,x.com##[data-testid=cellInnerDiv]:has([data-testid=placementTracking]):has([dir=ltr]:has-text(/^Ad$/))
-twitter.com,x.com##[data-testid=cellInnerDiv]:has(a[href="/i/premium_sign_up?referring_page=timeline_prompt"])
+twitter.com,x.com##[data-testid=cellInnerDiv]:has(a[href^="/i/premium_sign_up?referring_page=timeline_prompt"])
+twitter.com,x.com##a[href^="/i/premium_sign_up"]
+!twitter.com,x.com##a[href^="/i/grok"]
+twitter.com,x.com##[aria-label="Try Premium for free today"]:upward(2)
+twitter.com,x.com##[data-testid*=followups]:upward(1):has(path[d="M7.414 13l5.043 5.04-1.414 1.42L3.586 12l7.457-7.46 1.414 1.42L7.414 11H21v2H7.414z"])
 
 dextools.io##.ng-star-inserted.d-none.d-lg-block.d-lg-none.d-md-none.d-sm-none.text-center.banner
 dextools.io##.ng-star-inserted.ng-tns-c113-2.d-md-block.d-none.mb-4 > .ng-tns-c113-2.box-home:xpath(..)
@@ -89,11 +95,11 @@ twitch.tv##.shelf-card__impression-wrapper:has(p[data-a-target=PROMOTION]):xpath
 twitch.tv##.shelf-card__impression-wrapper:has(p[data-a-target=COMMUNITY_BOOST]):xpath(..)
 twitch.tv##.shelf-card__impression-wrapper:has-text(Promoted by the streamer\'s community):xpath(..)
 twitch.tv##.find-me:has-text(All aboard the Hype Train!)
-!twitch.tv##+js(twitch-videoad)
+twitch.tv##+js(twitch-videoad)
 
 typeracer.com##.DialogBox:has-text(disqualified)
 
-w2g.tv##a[href="https://w2g.tv/upgrade"]
+!w2g.tv##a[href="https://w2g.tv/upgrade"]
 
 halotracker.com##.bordered-ad
 halotracker.com##.ad-container
@@ -106,6 +112,9 @@ nzherald.co.nz##button:has-text(Subscribe now)
 nzherald.co.nz###premium-toaster
 nzherald.co.nz##.email-boost
 !nzherald.co.nz##article span[data-test-ui=story-card__label]:has-text(Premium):xpath(..)
+
+nytimes.com##.top-sale-banner
+nytimes.com##.subscribe
 
 socialblade.com##.socialblade-heartbeat:xpath(../..)
 
@@ -122,6 +131,11 @@ puzzlebaron.com###undernav
 csgo.exchange##a[href*=ads]:upward(ul)
 
 csgobackpack.net##img[src*="backpack-1.png"]:upward(2)
+csgobackpack.net##div.well:has(img[alt=CSMoney])
+
+convars.com##a[href*="csgopositive.com"]
+
+3d.cs.money##[class*=svelte]:has-text(Cookie Notice):xpath(..)
 
 ||chat.openai.com/backend-api/moderations
 
@@ -129,16 +143,33 @@ kick.com##.fixed.bottom-0:has-text(Kick uses cookies)
 
 patreon.com###banner-title:has-text(Your Privacy):upward(4)
 
-fmoviesz.to##a[href*=mangafire]
-fmoviesz.to##+js(set, DisDevTool, undefined)
-fmoviesz.to##+js(set, console.warn, undefined, 3)
-fmoviesz.to#@#+js(no-setTimeout-if, null)
-fmoviesz.to##+js(nostif, /devToolsDetected/)
+fmoviesz.*,fmovies.*,fmovies24.*,fboxz.*##a[href*=mangafire]
+fmoviesz.*,fmovies.*,fmovies24.*,fboxz.*##a[href*="anix.to"]
+fmoviesz.*,fmovies.*,fmovies24.*,fboxz.*##+js(set, DisDevTool, undefined)
+fmoviesz.*,fmovies.*,fmovies24.*,fboxz.*##+js(set, console.warn, undefined, 3)
+fmoviesz.*,fmovies.*,fmovies24.*,fboxz.*#@#+js(no-setTimeout-if, null)
+fmoviesz.*,fmovies.*,fmovies24.*,fboxz.*##+js(nostif, /devToolsDetected/)
+
+filmovisanje.com##center
+filmovisanje.com##.style-fancy.after_content.shared-counts-wrap
+filmovisanje.com##.chatbro_header
+filmovisanje.com##widgetbot-crate
+filmovisanje.com###episodes .body > ul:style(max-height: 300px !important;)
 
 mail.google.com##[aria-label="Inbox tip"]:has-text(We protect your privacy)
 
 3d.cs.money##.titleContainer:has-text(Stickers) + div + .result:style(max-height: calc(100vh - 215px) !important)
 
 ||csroi.com/assets/skinport-banner.png$image
+csroi.com###cookie-banner
 
 jsonviewer.stack.hu###footer
+
+geekzone.co.nz###colmid .container:not(:has(a[href^=user_public]))
+geekzone.co.nz###topLinks
+
+thetvapp.to##.alert:has-text(Subscribe now)
+thetvapp.to##.navbar-brand + ul + .text-end
+thetvapp.to##.navbar-brand + * + .text-end + .m-2
+
+commandprompt.com##.sidebar-wrap
