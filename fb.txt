@@ -94,9 +94,12 @@ facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###ss
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-label*="video chats"]:upward(9)
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href*="/coronavirus_info/?page_source=bookmark"]:xpath(../..)
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href*="/climatescienceinfo/?entry_point="]:xpath(../..)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href="https://www.meta.ai/?utm_source=facebook_bookmarks"]:xpath(../..)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href="#"]:has-text(Manus AI):xpath(../..)
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##span#ssrb_composer_start + div:has-text(Take a COVID-19 Survey)
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##span#ssrb_composer_start + div:has-text(take a COVID-19 survey)
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset] [role=button]:has-text(Send):upward(1)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##h1:has-text(Home) + div + div a[href="/messages/t/36327,2227039302/"]:upward(li)
 !
 ! Unpaid promotions
 !
