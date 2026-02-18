@@ -95,6 +95,7 @@ facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href*="/coronavirus_info/?page_source=bookmark"]:xpath(../..)
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href*="/climatescienceinfo/?entry_point="]:xpath(../..)
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href="https://www.meta.ai/?utm_source=facebook_bookmarks"]:xpath(../..)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href*="https%3A%2F%2Fwww.meta.ai%2F%3Futm_source%3Dfacebook_bookmarks"]:xpath(../..)
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href="#"]:has-text(Manus AI):xpath(../..)
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##span#ssrb_composer_start + div:has-text(Take a COVID-19 Survey)
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##span#ssrb_composer_start + div:has-text(take a COVID-19 survey)
